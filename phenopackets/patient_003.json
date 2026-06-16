@@ -1,0 +1,14 @@
+{
+  "id": "patient_003",
+  "subject": {
+    "id": "patient_003"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0009642",
+        "label": "Broad distal phalanx of the thumb"
+      }
+    }
+  ]
+}

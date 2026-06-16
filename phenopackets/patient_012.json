@@ -1,0 +1,44 @@
+{
+  "id": "patient_012",
+  "subject": {
+    "id": "patient_012"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0200097",
+        "label": "Oral mucosal blisters"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001056",
+        "label": "Milia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011121",
+        "label": "Abnormal skin morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001609",
+        "label": "Hoarse voice"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008066",
+        "label": "Abnormal blistering of the skin"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003808",
+        "label": "Abnormal muscle tone"
+      }
+    }
+  ]
+}

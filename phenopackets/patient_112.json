@@ -1,0 +1,14 @@
+{
+  "id": "patient_112",
+  "subject": {
+    "id": "patient_112"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0004308",
+        "label": "Ventricular arrhythmia"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "patient_184",
+  "subject": {
+    "id": "patient_184"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0033712",
+        "label": "Repeated implantation failure"
+      }
+    }
+  ]
+}

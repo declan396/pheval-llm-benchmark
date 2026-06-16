@@ -1,0 +1,38 @@
+{
+  "id": "patient_106",
+  "subject": {
+    "id": "patient_106"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0012638",
+        "label": "Abnormal nervous system physiology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004453",
+        "label": "Overfolding of the superior helices"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000104",
+        "label": "Renal agenesis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000200",
+        "label": "Short lingual frenulum"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012017",
+        "label": "EEG with parietal focal spikes"
+      }
+    }
+  ]
+}

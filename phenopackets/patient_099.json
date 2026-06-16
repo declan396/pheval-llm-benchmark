@@ -1,0 +1,62 @@
+{
+  "id": "patient_099",
+  "subject": {
+    "id": "patient_099"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0003690",
+        "label": "Limb muscle weakness"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002936",
+        "label": "Distal sensory impairment"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004571",
+        "label": "Widening of cervical spinal canal"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008483",
+        "label": "Cervical vertebral bodies with decreased anteroposterior diameter"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004575",
+        "label": "Fusion of midcervical facet joints"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003798",
+        "label": "Nemaline bodies"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005986",
+        "label": "Limitation of neck motion"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0031826",
+        "label": "Abnormal reflex"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:6000190",
+        "label": "Abnormal seminal vesicle morphology"
+      }
+    }
+  ]
+}

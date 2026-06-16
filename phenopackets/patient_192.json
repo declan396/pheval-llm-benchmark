@@ -1,0 +1,26 @@
+{
+  "id": "patient_192",
+  "subject": {
+    "id": "patient_192"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0012569",
+        "label": "Delayed menarche"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008214",
+        "label": "Decreased serum estradiol"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011969",
+        "label": "Elevated circulating luteinizing hormone level"
+      }
+    }
+  ]
+}

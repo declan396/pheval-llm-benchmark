@@ -1,0 +1,62 @@
+{
+  "id": "patient_092",
+  "subject": {
+    "id": "patient_092"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0001377",
+        "label": "Limited elbow extension"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0007516",
+        "label": "Redundant skin on fingers"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002938",
+        "label": "Lumbar hyperlordosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008873",
+        "label": "Disproportionate short-limb short stature"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0009803",
+        "label": "Short phalanx of finger"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003086",
+        "label": "Acromesomelia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010027",
+        "label": "Broad 1st metacarpal"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011844",
+        "label": "Abnormal appendicular skeleton morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000576",
+        "label": "Centrocecal scotoma"
+      }
+    }
+  ]
+}

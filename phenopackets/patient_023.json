@@ -1,0 +1,20 @@
+{
+  "id": "patient_023",
+  "subject": {
+    "id": "patient_023"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0002990",
+        "label": "Fibular aplasia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000278",
+        "label": "Retrognathia"
+      }
+    }
+  ]
+}

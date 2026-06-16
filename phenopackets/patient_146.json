@@ -1,0 +1,14 @@
+{
+  "id": "patient_146",
+  "subject": {
+    "id": "patient_146"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0001639",
+        "label": "Hypertrophic cardiomyopathy"
+      }
+    }
+  ]
+}

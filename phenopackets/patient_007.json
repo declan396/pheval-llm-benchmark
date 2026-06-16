@@ -1,0 +1,26 @@
+{
+  "id": "patient_007",
+  "subject": {
+    "id": "patient_007"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0001435",
+        "label": "Abnormality of the shoulder girdle musculature"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0200021",
+        "label": "Down-sloping shoulders"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0034392",
+        "label": "Joint contracture"
+      }
+    }
+  ]
+}

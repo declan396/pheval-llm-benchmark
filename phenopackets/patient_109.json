@@ -1,0 +1,74 @@
+{
+  "id": "patient_109",
+  "subject": {
+    "id": "patient_109"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0000951",
+        "label": "Abnormality of the skin"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002960",
+        "label": "Autoimmunity"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0040312",
+        "label": "Temporomandibular arthritis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0040310",
+        "label": "Sterile arthritis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011123",
+        "label": "Inflammatory abnormality of the skin"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0020225",
+        "label": "Breast abscess"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002960",
+        "label": "Autoimmunity"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011121",
+        "label": "Abnormal skin morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012252",
+        "label": "Abnormal respiratory system morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012144",
+        "label": "Abnormal monocyte morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0006262",
+        "label": "Aplasia/Hypoplasia of the 5th finger"
+      }
+    }
+  ]
+}

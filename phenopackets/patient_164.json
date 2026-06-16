@@ -1,0 +1,56 @@
+{
+  "id": "patient_164",
+  "subject": {
+    "id": "patient_164"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0001885",
+        "label": "Short 2nd toe"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001336",
+        "label": "Myoclonus"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001290",
+        "label": "Generalized hypotonia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0006855",
+        "label": "Cerebellar vermis atrophy"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001508",
+        "label": "Failure to thrive"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005105",
+        "label": "Abnormal nasal morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008610",
+        "label": "Infantile sensorineural hearing impairment"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001293",
+        "label": "Cranial nerve compression"
+      }
+    }
+  ]
+}

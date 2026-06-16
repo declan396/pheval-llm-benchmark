@@ -1,0 +1,20 @@
+{
+  "id": "patient_199",
+  "subject": {
+    "id": "patient_199"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0001374",
+        "label": "Congenital hip dislocation"
+      },
+      "onset": {
+        "ontologyClass": {
+          "id": "HP:0003577",
+          "label": "Congenital onset"
+        }
+      }
+    }
+  ]
+}

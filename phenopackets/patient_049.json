@@ -1,0 +1,86 @@
+{
+  "id": "patient_049",
+  "subject": {
+    "id": "patient_049"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0008697",
+        "label": "Hypoplasia of the fallopian tube"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008734",
+        "label": "Decreased testicular size"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0040171",
+        "label": "Decreased serum testosterone concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004305",
+        "label": "Involuntary movements"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008279",
+        "label": "Transient hyperlipidemia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001332",
+        "label": "Dystonia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011962",
+        "label": "Obstructive azoospermia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001249",
+        "label": "Intellectual disability"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001507",
+        "label": "Growth abnormality"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0031704",
+        "label": "Abnormal ear physiology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002231",
+        "label": "Sparse body hair"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002167",
+        "label": "Abnormal speech pattern"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0100946",
+        "label": "Sclerosis of proximal phalanx of toe"
+      }
+    }
+  ]
+}

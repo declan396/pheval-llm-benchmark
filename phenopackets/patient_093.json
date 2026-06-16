@@ -1,0 +1,26 @@
+{
+  "id": "patient_093",
+  "subject": {
+    "id": "patient_093"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0031873",
+        "label": "Early chronotype"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0025766",
+        "label": "Abnormal affect"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0500058",
+        "label": "Retinopathy of prematurity stage 5b"
+      }
+    }
+  ]
+}

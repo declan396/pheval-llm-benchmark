@@ -1,0 +1,20 @@
+{
+  "id": "patient_051",
+  "subject": {
+    "id": "patient_051"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0004812",
+        "label": "B Acute Lymphoblastic Leukemia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011953",
+        "label": "Pulmonary lymphoma"
+      }
+    }
+  ]
+}

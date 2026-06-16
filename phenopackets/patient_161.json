@@ -1,0 +1,122 @@
+{
+  "id": "patient_161",
+  "subject": {
+    "id": "patient_161"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0000486",
+        "label": "Strabismus"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002282",
+        "label": "Gray matter heterotopia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000133",
+        "label": "Gonadal dysgenesis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000411",
+        "label": "Protruding ear"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001263",
+        "label": "Global developmental delay"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0100779",
+        "label": "Urogenital sinus anomaly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000343",
+        "label": "Long philtrum"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000505",
+        "label": "Visual impairment"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000540",
+        "label": "Hypermetropia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011102",
+        "label": "Ileal atresia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000508",
+        "label": "Ptosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008665",
+        "label": "Clitoral hypertrophy"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0030048",
+        "label": "Colpocephaly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002126",
+        "label": "Polymicrogyria"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0100627",
+        "label": "Displacement of the urethral meatus"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012741",
+        "label": "Unilateral cryptorchidism"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000041",
+        "label": "Chordee"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0025660",
+        "label": "Chiari type II malformation"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0007800",
+        "label": "Increased axial length of the globe"
+      }
+    }
+  ]
+}

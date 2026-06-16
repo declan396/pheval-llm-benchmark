@@ -1,0 +1,26 @@
+{
+  "id": "patient_066",
+  "subject": {
+    "id": "patient_066"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0008527",
+        "label": "Congenital sensorineural hearing impairment"
+      },
+      "onset": {
+        "ontologyClass": {
+          "id": "HP:0003577",
+          "label": "Congenital onset"
+        }
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011390",
+        "label": "Abnormal inner ear morphology"
+      }
+    }
+  ]
+}

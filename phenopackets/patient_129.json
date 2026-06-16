@@ -1,0 +1,14 @@
+{
+  "id": "patient_129",
+  "subject": {
+    "id": "patient_129"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0002121",
+        "label": "Generalized non-motor (absence) seizure"
+      }
+    }
+  ]
+}

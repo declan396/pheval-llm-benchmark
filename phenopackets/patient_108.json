@@ -1,0 +1,32 @@
+{
+  "id": "patient_108",
+  "subject": {
+    "id": "patient_108"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0002220",
+        "label": "Melanin pigment aggregation in hair shafts"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002218",
+        "label": "Silver-gray hair"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002227",
+        "label": "White eyelashes"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000627",
+        "label": "Posterior embryotoxon"
+      }
+    }
+  ]
+}

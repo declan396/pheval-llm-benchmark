@@ -1,0 +1,38 @@
+{
+  "id": "patient_090",
+  "subject": {
+    "id": "patient_090"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0025586",
+        "label": "Hypertropia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001488",
+        "label": "Bilateral ptosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001491",
+        "label": "Congenital fibrosis of extraocular muscles"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000505",
+        "label": "Visual impairment"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002754",
+        "label": "Osteomyelitis"
+      }
+    }
+  ]
+}

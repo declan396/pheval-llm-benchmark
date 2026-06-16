@@ -1,0 +1,32 @@
+{
+  "id": "patient_181",
+  "subject": {
+    "id": "patient_181"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0002208",
+        "label": "Coarse hair"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003282",
+        "label": "Decreased circulating alkaline phosphatase activity"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001252",
+        "label": "Hypotonia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004322",
+        "label": "Short stature"
+      }
+    }
+  ]
+}

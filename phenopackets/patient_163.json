@@ -1,0 +1,188 @@
+{
+  "id": "patient_163",
+  "subject": {
+    "id": "patient_163"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0007018",
+        "label": "Attention deficit hyperactivity disorder"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001249",
+        "label": "Intellectual disability"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000574",
+        "label": "Thick eyebrow"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000448",
+        "label": "Prominent nose"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012745",
+        "label": "Short palpebral fissure"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000369",
+        "label": "Low-set ears"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001263",
+        "label": "Global developmental delay"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000407",
+        "label": "Sensorineural hearing impairment"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000431",
+        "label": "Wide nasal bridge"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0009729",
+        "label": "Cardiac rhabdomyoma"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000826",
+        "label": "Precocious puberty"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000579",
+        "label": "Nasolacrimal duct obstruction"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0030820",
+        "label": "Hooded eyelid"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0030799",
+        "label": "Scaphocephaly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000218",
+        "label": "High palate"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000263",
+        "label": "Oxycephaly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000729",
+        "label": "Autistic behavior"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0500093",
+        "label": "Food allergy"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000160",
+        "label": "Narrow mouth"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:5201016",
+        "label": "Submucous cleft palate"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:6001104",
+        "label": "Abnormal vestibulo-spinal reflex"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000316",
+        "label": "Hypertelorism"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001166",
+        "label": "Arachnodactyly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011805",
+        "label": "Abnormal skeletal muscle morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0025253",
+        "label": "Claustrophobia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0040196",
+        "label": "Mild microcephaly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001498",
+        "label": "Carpal bone hypoplasia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008451",
+        "label": "Posterior vertebral hypoplasia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:6000268",
+        "label": "Elevated circulating pipecolic acid concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0033257",
+        "label": "Delayed ability to walk with support"
+      }
+    }
+  ]
+}

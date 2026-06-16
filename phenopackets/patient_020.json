@@ -1,0 +1,14 @@
+{
+  "id": "patient_020",
+  "subject": {
+    "id": "patient_020"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0000271",
+        "label": "Abnormality of the face"
+      }
+    }
+  ]
+}

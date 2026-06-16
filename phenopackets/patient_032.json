@@ -1,0 +1,14 @@
+{
+  "id": "patient_032",
+  "subject": {
+    "id": "patient_032"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0000925",
+        "label": "Abnormality of the vertebral column"
+      }
+    }
+  ]
+}

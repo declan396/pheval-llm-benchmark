@@ -1,0 +1,14 @@
+{
+  "id": "patient_082",
+  "subject": {
+    "id": "patient_082"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0001507",
+        "label": "Growth abnormality"
+      }
+    }
+  ]
+}

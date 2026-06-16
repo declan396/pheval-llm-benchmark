@@ -1,0 +1,14 @@
+{
+  "id": "patient_022",
+  "subject": {
+    "id": "patient_022"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0007410",
+        "label": "Palmoplantar hyperhidrosis"
+      }
+    }
+  ]
+}

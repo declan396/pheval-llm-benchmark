@@ -1,0 +1,32 @@
+{
+  "id": "patient_045",
+  "subject": {
+    "id": "patient_045"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0000027",
+        "label": "Azoospermia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000786",
+        "label": "Primary amenorrhea"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002750",
+        "label": "Delayed skeletal maturation"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0030341",
+        "label": "Decreased circulating follicle stimulating hormone concentration"
+      }
+    }
+  ]
+}

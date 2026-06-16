@@ -1,0 +1,32 @@
+{
+  "id": "patient_179",
+  "subject": {
+    "id": "patient_179"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0012547",
+        "label": "Abnormal involuntary eye movements"
+      },
+      "onset": {
+        "ontologyClass": {
+          "id": "HP:0003596",
+          "label": "Middle age onset"
+        }
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001251",
+        "label": "Ataxia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000549",
+        "label": "Abnormal conjugate eye movement"
+      }
+    }
+  ]
+}

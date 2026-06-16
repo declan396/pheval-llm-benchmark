@@ -1,0 +1,86 @@
+{
+  "id": "patient_005",
+  "subject": {
+    "id": "patient_005"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0002460",
+        "label": "Distal muscle weakness"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003693",
+        "label": "Distal amyotrophy"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001761",
+        "label": "Pes cavus"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002936",
+        "label": "Distal sensory impairment"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003449",
+        "label": "Cold-induced muscle cramps"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001284",
+        "label": "Areflexia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003431",
+        "label": "Decreased motor nerve conduction velocity"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0009830",
+        "label": "Peripheral neuropathy"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012074",
+        "label": "Tonic pupil"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001178",
+        "label": "Ulnar claw"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000362",
+        "label": "Otosclerosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:6000543",
+        "label": "Positive mycobacterium CSF culture"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0032736",
+        "label": "Focal emotional seizure with anger"
+      }
+    }
+  ]
+}

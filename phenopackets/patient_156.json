@@ -1,0 +1,38 @@
+{
+  "id": "patient_156",
+  "subject": {
+    "id": "patient_156"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0002169",
+        "label": "Clonus"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002793",
+        "label": "Abnormal pattern of respiration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0410170",
+        "label": "Hippocampal atrophy"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005876",
+        "label": "Progressive flexion contractures"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0100084",
+        "label": "Pseudoepiphyses of the 5th toe"
+      }
+    }
+  ]
+}

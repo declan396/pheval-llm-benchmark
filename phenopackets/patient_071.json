@@ -1,0 +1,50 @@
+{
+  "id": "patient_071",
+  "subject": {
+    "id": "patient_071"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0001004",
+        "label": "Lymphedema"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012177",
+        "label": "Abnormal natural killer cell physiology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003261",
+        "label": "Increased circulating IgA concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002719",
+        "label": "Recurrent infections"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011121",
+        "label": "Abnormal skin morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010701",
+        "label": "Abnormal circulating immunoglobulin concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002296",
+        "label": "Progressive hypotrichosis"
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "patient_014",
+  "subject": {
+    "id": "patient_014"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0005338",
+        "label": "Sparse lateral eyebrow"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011336",
+        "label": "Bitemporal forceps marks"
+      }
+    }
+  ]
+}

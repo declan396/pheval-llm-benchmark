@@ -1,0 +1,44 @@
+{
+  "id": "patient_078",
+  "subject": {
+    "id": "patient_078"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0001433",
+        "label": "Hepatosplenomegaly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0032230",
+        "label": "Cytoplasmic antineutrophil antibody positivity"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011992",
+        "label": "Abnormal neutrophil morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001433",
+        "label": "Hepatosplenomegaly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:6000980",
+        "label": "Bone marrow hemophagocytosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0500184",
+        "label": "Abnormal CSF amino acid concentration"
+      }
+    }
+  ]
+}

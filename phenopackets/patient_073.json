@@ -1,0 +1,80 @@
+{
+  "id": "patient_073",
+  "subject": {
+    "id": "patient_073"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0000666",
+        "label": "Horizontal nystagmus"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001263",
+        "label": "Global developmental delay"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012638",
+        "label": "Abnormal nervous system physiology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001507",
+        "label": "Growth abnormality"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000646",
+        "label": "Amblyopia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012372",
+        "label": "Abnormal eye morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0031172",
+        "label": "Sectoral retinitis pigmentosa"
+      },
+      "onset": {
+        "ontologyClass": {
+          "id": "HP:0003593",
+          "label": "Infantile onset"
+        }
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011451",
+        "label": "Primary microcephaly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0007889",
+        "label": "Iridescent posterior subcapsular cataract"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0033199",
+        "label": "Increased circulating interleukin 10 concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012628",
+        "label": "Abnormal suspensory ligament of lens morphology"
+      }
+    }
+  ]
+}

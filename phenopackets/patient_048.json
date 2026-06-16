@@ -1,0 +1,14 @@
+{
+  "id": "patient_048",
+  "subject": {
+    "id": "patient_048"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0001250",
+        "label": "Seizure"
+      }
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "id": "patient_110",
+  "subject": {
+    "id": "patient_110"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0010781",
+        "label": "Skin dimple"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0034708",
+        "label": "Superior pubic ramus hypoplasia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0006136",
+        "label": "Bilateral postaxial polydactyly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012373",
+        "label": "Abnormal eye physiology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0040069",
+        "label": "Abnormal lower limb bone morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0006503",
+        "label": "Aplasia/hypoplasia involving forearm bones"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004453",
+        "label": "Overfolding of the superior helices"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011138",
+        "label": "Abnormal skin adnexa morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000036",
+        "label": "Abnormal penis morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005922",
+        "label": "Abnormal hand morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000045",
+        "label": "Abnormal scrotum morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001760",
+        "label": "Abnormal foot morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0006442",
+        "label": "Hypoplasia of proximal fibula"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000568",
+        "label": "Microphthalmia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010561",
+        "label": "Undulate ribs"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0034669",
+        "label": "Abnormal knee morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000383",
+        "label": "Abnormal periauricular region morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0031017",
+        "label": "Swiss cheese atrial septal defect"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003065",
+        "label": "Patellar hypoplasia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001059",
+        "label": "Pterygium"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004686",
+        "label": "Short third metatarsal"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000431",
+        "label": "Wide nasal bridge"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000054",
+        "label": "Micropenis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0040195",
+        "label": "Decreased head circumference"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011297",
+        "label": "Abnormal digit morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000492",
+        "label": "Abnormal eyelid morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012736",
+        "label": "Profound global developmental delay"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0009815",
+        "label": "Aplasia/hypoplasia of the extremities"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012741",
+        "label": "Unilateral cryptorchidism"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000060",
+        "label": "Clitoral hypoplasia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005070",
+        "label": "Proximal radial head dislocation"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000316",
+        "label": "Hypertelorism"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011975",
+        "label": "Aminoglycoside-induced hearing loss"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002544",
+        "label": "Retrocollis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000470",
+        "label": "Short neck"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001839",
+        "label": "Split foot"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002867",
+        "label": "Abnormal ilium morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004471",
+        "label": "Aplasia cutis congenita over the scalp vertex"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003182",
+        "label": "Shallow acetabular fossae"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000377",
+        "label": "Abnormal pinna morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001167",
+        "label": "Abnormal finger morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011842",
+        "label": "Abnormal skeletal morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010806",
+        "label": "U-Shaped upper lip vermilion"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0009121",
+        "label": "Abnormal axial skeleton morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000023",
+        "label": "Inguinal hernia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002813",
+        "label": "Abnormal limb bone morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:6000612",
+        "label": "Squamosal suture synostosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005105",
+        "label": "Abnormal nasal morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005832",
+        "label": "Dysharmonic delayed bone age"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010717",
+        "label": "Osseous syndactyly of toes"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002683",
+        "label": "Abnormal calvaria morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012210",
+        "label": "Abnormal renal morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0032327",
+        "label": "Interhemispheric cyst"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0410017",
+        "label": "Otitis externa"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001387",
+        "label": "Joint stiffness"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002638",
+        "label": "Superficial thrombophlebitis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0410073",
+        "label": "Increased CSF ribose concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0035006",
+        "label": "Hepatic sinusoidal dilatation"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0410035",
+        "label": "Abnormal T cell activation"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0100296",
+        "label": "Perifascicular muscle fiber atrophy"
+      }
+    }
+  ]
+}

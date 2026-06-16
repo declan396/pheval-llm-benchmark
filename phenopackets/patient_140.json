@@ -1,0 +1,26 @@
+{
+  "id": "patient_140",
+  "subject": {
+    "id": "patient_140"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0001763",
+        "label": "Pes planus"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004209",
+        "label": "Clinodactyly of the 5th finger"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0006265",
+        "label": "Aplasia/Hypoplasia of fingers"
+      }
+    }
+  ]
+}

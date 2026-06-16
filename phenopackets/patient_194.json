@@ -1,0 +1,50 @@
+{
+  "id": "patient_194",
+  "subject": {
+    "id": "patient_194"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0001369",
+        "label": "Arthritis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0100651",
+        "label": "Type I diabetes mellitus"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:6000901",
+        "label": "Positive bloodstream tuberculosis-induced T-cell-based interferon-gamma release assay"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003237",
+        "label": "Increased circulating IgG concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0550004",
+        "label": "Verruca plana"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000821",
+        "label": "Hypothyroidism"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0100206",
+        "label": "Fragmentation of the epiphysis of the distal phalanx of the 5th toe"
+      }
+    }
+  ]
+}

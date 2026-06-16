@@ -1,0 +1,26 @@
+{
+  "id": "patient_001",
+  "subject": {
+    "id": "patient_001"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0002682",
+        "label": "Broad skull"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000347",
+        "label": "Micrognathia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0034504",
+        "label": "Septate gallbladder"
+      }
+    }
+  ]
+}

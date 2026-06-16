@@ -1,0 +1,20 @@
+{
+  "id": "patient_043",
+  "subject": {
+    "id": "patient_043"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0002656",
+        "label": "Epiphyseal dysplasia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001730",
+        "label": "Progressive hearing impairment"
+      }
+    }
+  ]
+}

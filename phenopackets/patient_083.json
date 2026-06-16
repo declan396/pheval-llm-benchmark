@@ -1,0 +1,14 @@
+{
+  "id": "patient_083",
+  "subject": {
+    "id": "patient_083"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0007646",
+        "label": "Absent lower eyelashes"
+      }
+    }
+  ]
+}

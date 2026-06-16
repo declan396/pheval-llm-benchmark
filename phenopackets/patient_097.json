@@ -1,0 +1,14 @@
+{
+  "id": "patient_097",
+  "subject": {
+    "id": "patient_097"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0004904",
+        "label": "Maturity-onset diabetes of the young"
+      }
+    }
+  ]
+}

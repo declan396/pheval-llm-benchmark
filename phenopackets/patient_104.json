@@ -1,0 +1,20 @@
+{
+  "id": "patient_104",
+  "subject": {
+    "id": "patient_104"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0002460",
+        "label": "Distal muscle weakness"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003477",
+        "label": "Peripheral axonal neuropathy"
+      }
+    }
+  ]
+}

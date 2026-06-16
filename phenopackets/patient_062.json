@@ -1,0 +1,14 @@
+{
+  "id": "patient_062",
+  "subject": {
+    "id": "patient_062"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0002297",
+        "label": "Red hair"
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "patient_170",
+  "subject": {
+    "id": "patient_170"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0001107",
+        "label": "Ocular albinism"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001022",
+        "label": "Albinism"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008034",
+        "label": "Abnormal iris pigmentation"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000613",
+        "label": "Photophobia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001892",
+        "label": "Abnormal bleeding"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012547",
+        "label": "Abnormal involuntary eye movements"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0030402",
+        "label": "Abnormal platelet aggregation"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005599",
+        "label": "Hypopigmentation of hair"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0033535",
+        "label": "Reduced platelet dense granules"
+      }
+    }
+  ]
+}

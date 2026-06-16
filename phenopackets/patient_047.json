@@ -1,0 +1,14 @@
+{
+  "id": "patient_047",
+  "subject": {
+    "id": "patient_047"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0008176",
+        "label": "Neonatal unconjugated hyperbilirubinemia"
+      }
+    }
+  ]
+}

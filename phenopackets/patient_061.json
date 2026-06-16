@@ -1,0 +1,68 @@
+{
+  "id": "patient_061",
+  "subject": {
+    "id": "patient_061"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0000581",
+        "label": "Blepharophimosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000218",
+        "label": "High palate"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005198",
+        "label": "Stiff interphalangeal joints"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002014",
+        "label": "Diarrhea"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001999",
+        "label": "Abnormal facial shape"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0045025",
+        "label": "Narrow palpebral fissure"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0031704",
+        "label": "Abnormal ear physiology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0007511",
+        "label": "Mottled pigmentation of photoexposed areas"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0032839",
+        "label": "Bilateral symmetric neonatal sequential seizure"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0032238",
+        "label": "Increased circulating metamyelocyte count"
+      }
+    }
+  ]
+}

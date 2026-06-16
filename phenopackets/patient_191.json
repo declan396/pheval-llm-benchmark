@@ -1,0 +1,80 @@
+{
+  "id": "patient_191",
+  "subject": {
+    "id": "patient_191"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0005293",
+        "label": "Venous insufficiency"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:6000342",
+        "label": "Thickened mitral valve cusp"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003010",
+        "label": "Prolonged bleeding time"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000978",
+        "label": "Bruising susceptibility"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005113",
+        "label": "Aortic arch aneurysm"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0100550",
+        "label": "Tendon rupture"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012095",
+        "label": "Multiple joint dislocation"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0025509",
+        "label": "Piezogenic pedal papules"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011355",
+        "label": "Localized skin lesion"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001382",
+        "label": "Joint hypermobility"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0031539",
+        "label": "Linear IgA deposits along the epidermal basement membrane zone"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0032009",
+        "label": "Infantile constant exotropia"
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "patient_149",
+  "subject": {
+    "id": "patient_149"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0012358",
+        "label": "Abnormal protein O-linked glycosylation"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012347",
+        "label": "Abnormal protein N-linked glycosylation"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001438",
+        "label": "Abnormal abdomen morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010876",
+        "label": "Abnormal circulating protein concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0034785",
+        "label": "Vasculitis by histology"
+      }
+    }
+  ]
+}

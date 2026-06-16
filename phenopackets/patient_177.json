@@ -1,0 +1,38 @@
+{
+  "id": "patient_177",
+  "subject": {
+    "id": "patient_177"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0032558",
+        "label": "Absent sperm flagella"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0033393",
+        "label": "Irregularly shaped sperm tail"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012207",
+        "label": "Reduced sperm motility"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0032560",
+        "label": "Coiled sperm flagella"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003251",
+        "label": "Male infertility"
+      }
+    }
+  ]
+}

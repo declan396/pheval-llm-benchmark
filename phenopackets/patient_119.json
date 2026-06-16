@@ -1,0 +1,32 @@
+{
+  "id": "patient_119",
+  "subject": {
+    "id": "patient_119"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0007843",
+        "label": "Attenuation of retinal blood vessels"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000505",
+        "label": "Visual impairment"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001135",
+        "label": "Chorioretinal dystrophy"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0007395",
+        "label": "Postnatal-onset ichthyosiform erythroderma"
+      }
+    }
+  ]
+}

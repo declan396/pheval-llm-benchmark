@@ -1,0 +1,200 @@
+{
+  "id": "patient_176",
+  "subject": {
+    "id": "patient_176"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0020045",
+        "label": "Esodeviation"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000664",
+        "label": "Synophrys"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002870",
+        "label": "Obstructive sleep apnea"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000400",
+        "label": "Macrotia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000537",
+        "label": "Epicanthus inversus"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001249",
+        "label": "Intellectual disability"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0006989",
+        "label": "Dysplastic corpus callosum"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001382",
+        "label": "Joint hypermobility"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011330",
+        "label": "Metopic synostosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000639",
+        "label": "Nystagmus"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000506",
+        "label": "Telecanthus"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000126",
+        "label": "Hydronephrosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000278",
+        "label": "Retrognathia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002020",
+        "label": "Gastroesophageal reflux"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003196",
+        "label": "Short nose"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000430",
+        "label": "Underdeveloped nasal alae"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0020206",
+        "label": "Simple ear"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000527",
+        "label": "Long eyelashes"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000403",
+        "label": "Recurrent otitis media"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011228",
+        "label": "Horizontal eyebrow"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000369",
+        "label": "Low-set ears"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000492",
+        "label": "Abnormal eyelid morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:4000035",
+        "label": "Primary obstructive megaureter"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011804",
+        "label": "Abnormal muscle physiology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001595",
+        "label": "Abnormal hair morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0025033",
+        "label": "Abnormal digestive system morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0025780",
+        "label": "Abnormal volitional state"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000429",
+        "label": "Abnormal morphology of the nasal alae"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000309",
+        "label": "Abnormal midface morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000219",
+        "label": "Thin upper lip vermilion"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004446",
+        "label": "Stomatocytosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0033072",
+        "label": "Abnormal macroscopic urine appearance"
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "patient_166",
+  "subject": {
+    "id": "patient_166"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0000218",
+        "label": "High palate"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002151",
+        "label": "Increased circulating lactate concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012240",
+        "label": "Increased intramyocellular lipid droplets"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004875",
+        "label": "Neonatal inspiratory stridor"
+      },
+      "onset": {
+        "ontologyClass": {
+          "id": "HP:0003577",
+          "label": "Congenital onset"
+        }
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011804",
+        "label": "Abnormal muscle physiology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011829",
+        "label": "Narrow philtrum"
+      }
+    }
+  ]
+}

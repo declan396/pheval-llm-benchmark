@@ -1,0 +1,218 @@
+{
+  "id": "patient_040",
+  "subject": {
+    "id": "patient_040"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0006687",
+        "label": "Aortic tortuosity"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002140",
+        "label": "Ischemic stroke"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005328",
+        "label": "Progeroid facial appearance"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0007421",
+        "label": "Telangiectases of the cheeks"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000977",
+        "label": "Soft skin"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000023",
+        "label": "Inguinal hernia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004955",
+        "label": "Generalized arterial tortuosity"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000581",
+        "label": "Blepharophimosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000494",
+        "label": "Downslanted palpebral fissures"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001290",
+        "label": "Generalized hypotonia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001650",
+        "label": "Aortic valve stenosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001371",
+        "label": "Flexion contracture"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001027",
+        "label": "Soft, doughy skin"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000963",
+        "label": "Thin skin"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000978",
+        "label": "Bruising susceptibility"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001977",
+        "label": "Abnormal thrombosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001714",
+        "label": "Ventricular hypertrophy"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000316",
+        "label": "Hypertelorism"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011121",
+        "label": "Abnormal skin morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011025",
+        "label": "Abnormal cardiovascular system physiology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008067",
+        "label": "Abnormally lax or hyperextensible skin"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012745",
+        "label": "Short palpebral fissure"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001382",
+        "label": "Joint hypermobility"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0032263",
+        "label": "Increased blood pressure"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000276",
+        "label": "Long face"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000483",
+        "label": "Astigmatism"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001167",
+        "label": "Abnormal finger morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001537",
+        "label": "Umbilical hernia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000343",
+        "label": "Long philtrum"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012718",
+        "label": "Abnormal gastrointestinal tract morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000915",
+        "label": "Pectus excavatum of inferior sternum"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000929",
+        "label": "Abnormal skull morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0031586",
+        "label": "Tessier number 14 facial cleft"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0430074",
+        "label": "Increased circulating beta-carotene concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0007465",
+        "label": "Honeycomb palmoplantar hyperkeratosis"
+      }
+    }
+  ]
+}

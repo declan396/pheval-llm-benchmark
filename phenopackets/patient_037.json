@@ -1,0 +1,74 @@
+{
+  "id": "patient_037",
+  "subject": {
+    "id": "patient_037"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0002148",
+        "label": "Hypophosphatemia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003324",
+        "label": "Generalized muscle weakness"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000117",
+        "label": "Renal phosphate wasting"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002653",
+        "label": "Bone pain"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004322",
+        "label": "Short stature"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004912",
+        "label": "Hypophosphatemic rickets"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010682",
+        "label": "Elevated placental alkaline phosphatase"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011070",
+        "label": "Abnormal molar morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0033783",
+        "label": "Molar incisor malformation"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0040417",
+        "label": "Decreased urinary biopterin level"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0045049",
+        "label": "Abnormal DLCO"
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "patient_174",
+  "subject": {
+    "id": "patient_174"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0100665",
+        "label": "Angioedema"
+      },
+      "modifiers": [
+        {
+          "id": "HP:0031796",
+          "label": "Recurrent"
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": "HP:0031244",
+        "label": "Swollen lip"
+      },
+      "modifiers": [
+        {
+          "id": "HP:0031796",
+          "label": "Recurrent"
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": "HP:0000282",
+        "label": "Facial edema"
+      },
+      "modifiers": [
+        {
+          "id": "HP:0031796",
+          "label": "Recurrent"
+        }
+      ]
+    }
+  ]
+}

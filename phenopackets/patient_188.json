@@ -1,0 +1,38 @@
+{
+  "id": "patient_188",
+  "subject": {
+    "id": "patient_188"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0007641",
+        "label": "Dyschromatopsia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000603",
+        "label": "Central scotoma"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000572",
+        "label": "Visual loss"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000407",
+        "label": "Sensorineural hearing impairment"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002331",
+        "label": "Recurrent paroxysmal headache"
+      }
+    }
+  ]
+}

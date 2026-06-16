@@ -1,0 +1,194 @@
+{
+  "id": "patient_036",
+  "subject": {
+    "id": "patient_036"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0001252",
+        "label": "Hypotonia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004322",
+        "label": "Short stature"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012368",
+        "label": "Flat face"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000286",
+        "label": "Epicanthus"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001382",
+        "label": "Joint hypermobility"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001636",
+        "label": "Tetralogy of Fallot"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003413",
+        "label": "Atlantoaxial abnormality"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003182",
+        "label": "Shallow acetabular fossae"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000272",
+        "label": "Malar flattening"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0006496",
+        "label": "Aplasia/hypoplasia involving bones of the upper limbs"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008223",
+        "label": "Compensated hypothyroidism"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011650",
+        "label": "Bilateral ductus arteriosus"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010808",
+        "label": "Protruding tongue"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002683",
+        "label": "Abnormal calvaria morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011285",
+        "label": "Long-segment aganglionic megacolon"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002866",
+        "label": "Hypoplastic iliac wing"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000954",
+        "label": "Single transverse palmar crease"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000582",
+        "label": "Upslanted palpebral fissure"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002488",
+        "label": "Acute leukemia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0034057",
+        "label": "Fetal anomaly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002023",
+        "label": "Anal atresia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0025668",
+        "label": "Abnormal neck morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010445",
+        "label": "Primum atrial septal defect"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003712",
+        "label": "Skeletal muscle hypertrophy"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001627",
+        "label": "Abnormal heart morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0034057",
+        "label": "Fetal anomaly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002813",
+        "label": "Abnormal limb bone morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001169",
+        "label": "Broad palm"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001852",
+        "label": "Sandal gap"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0100867",
+        "label": "Duodenal stenosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0007917",
+        "label": "Tractional retinal detachment"
+      }
+    }
+  ]
+}

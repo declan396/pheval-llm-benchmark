@@ -1,0 +1,32 @@
+{
+  "id": "patient_118",
+  "subject": {
+    "id": "patient_118"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0007354",
+        "label": "Amyotrophic lateral sclerosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002483",
+        "label": "Bulbar signs"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012638",
+        "label": "Abnormal nervous system physiology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0007650",
+        "label": "Progressive ophthalmoplegia"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "patient_035",
+  "subject": {
+    "id": "patient_035"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0001199",
+        "label": "Triphalangeal thumb"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005643",
+        "label": "Short 3rd toe"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010214",
+        "label": "Contracture of the interphalangeal joint of the hallux"
+      }
+    }
+  ]
+}

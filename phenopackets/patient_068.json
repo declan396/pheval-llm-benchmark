@@ -1,0 +1,68 @@
+{
+  "id": "patient_068",
+  "subject": {
+    "id": "patient_068"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0002286",
+        "label": "Fair hair"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011359",
+        "label": "Dry hair"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002224",
+        "label": "Woolly hair"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002209",
+        "label": "Sparse scalp hair"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002208",
+        "label": "Coarse hair"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001807",
+        "label": "Ridged nail"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0025249",
+        "label": "Comedo"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001803",
+        "label": "Nail pits"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005338",
+        "label": "Sparse lateral eyebrow"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0007814",
+        "label": "Retinal pigment epithelial mottling"
+      }
+    }
+  ]
+}

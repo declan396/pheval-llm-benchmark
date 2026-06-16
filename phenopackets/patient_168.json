@@ -1,0 +1,80 @@
+{
+  "id": "patient_168",
+  "subject": {
+    "id": "patient_168"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0011833",
+        "label": "Overhanging nasal tip"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011842",
+        "label": "Abnormal skeletal morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0100531",
+        "label": "Wind-swept deformity of the knees"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011578",
+        "label": "Transitional atrioventricular canal defect"
+      },
+      "onset": {
+        "ontologyClass": {
+          "id": "HP:0003577",
+          "label": "Congenital onset"
+        }
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001674",
+        "label": "Complete atrioventricular canal defect"
+      },
+      "onset": {
+        "ontologyClass": {
+          "id": "HP:0003577",
+          "label": "Congenital onset"
+        }
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001999",
+        "label": "Abnormal facial shape"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011844",
+        "label": "Abnormal appendicular skeleton morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000191",
+        "label": "Accessory oral frenulum"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0025380",
+        "label": "Increased circulating androstenedione concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0100774",
+        "label": "Hyperostosis"
+      }
+    }
+  ]
+}

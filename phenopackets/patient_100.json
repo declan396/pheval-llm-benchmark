@@ -1,0 +1,14 @@
+{
+  "id": "patient_100",
+  "subject": {
+    "id": "patient_100"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0008396",
+        "label": "Chronic monilial nail infection"
+      }
+    }
+  ]
+}

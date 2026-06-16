@@ -1,0 +1,14 @@
+{
+  "id": "patient_131",
+  "subject": {
+    "id": "patient_131"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0000252",
+        "label": "Microcephaly"
+      }
+    }
+  ]
+}

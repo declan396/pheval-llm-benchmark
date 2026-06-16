@@ -1,0 +1,170 @@
+{
+  "id": "patient_153",
+  "subject": {
+    "id": "patient_153"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0005564",
+        "label": "Absence of renal corticomedullary differentiation"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008589",
+        "label": "Hypoplastic helices"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000083",
+        "label": "Renal insufficiency"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000750",
+        "label": "Delayed speech and language development"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001627",
+        "label": "Abnormal heart morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002617",
+        "label": "Vascular dilatation"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000086",
+        "label": "Ectopic kidney"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0040080",
+        "label": "Anteverted ears"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000286",
+        "label": "Epicanthus"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011968",
+        "label": "Feeding difficulties"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000776",
+        "label": "Congenital diaphragmatic hernia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001270",
+        "label": "Motor delay"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000369",
+        "label": "Low-set ears"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000033",
+        "label": "Ambiguous genitalia, male"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000219",
+        "label": "Thin upper lip vermilion"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000422",
+        "label": "Abnormal nasal bridge morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010958",
+        "label": "Bilateral renal agenesis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012210",
+        "label": "Abnormal renal morphology"
+      },
+      "onset": {
+        "ontologyClass": {
+          "id": "HP:0003577",
+          "label": "Congenital onset"
+        }
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001999",
+        "label": "Abnormal facial shape"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012210",
+        "label": "Abnormal renal morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0025633",
+        "label": "Abnormal ureter morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002795",
+        "label": "Abnormal respiratory system physiology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0031704",
+        "label": "Abnormal ear physiology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012243",
+        "label": "Abnormal reproductive system morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000641",
+        "label": "Dysmetric saccades"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000214",
+        "label": "Lip telangiectasia"
+      }
+    }
+  ]
+}

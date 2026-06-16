@@ -1,0 +1,38 @@
+{
+  "id": "patient_004",
+  "subject": {
+    "id": "patient_004"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0006696",
+        "label": "Polymorphic and polytopic ventricular extrasystoles"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001645",
+        "label": "Sudden cardiac death"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0031628",
+        "label": "Aborted sudden cardiac death"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004308",
+        "label": "Ventricular arrhythmia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0100397",
+        "label": "Short proximal phalanx of the 5th toe"
+      }
+    }
+  ]
+}

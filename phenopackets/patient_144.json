@@ -1,0 +1,26 @@
+{
+  "id": "patient_144",
+  "subject": {
+    "id": "patient_144"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0003547",
+        "label": "Shoulder girdle muscle weakness"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0032507",
+        "label": "Labiomental fasciculations"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003392",
+        "label": "First dorsal interossei muscle weakness"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "patient_029",
+  "subject": {
+    "id": "patient_029"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0001377",
+        "label": "Limited elbow extension"
+      }
+    }
+  ]
+}

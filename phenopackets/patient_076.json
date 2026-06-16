@@ -1,0 +1,50 @@
+{
+  "id": "patient_076",
+  "subject": {
+    "id": "patient_076"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0001263",
+        "label": "Global developmental delay"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000808",
+        "label": "Penoscrotal hypospadias"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003808",
+        "label": "Abnormal muscle tone"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0025780",
+        "label": "Abnormal volitional state"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000125",
+        "label": "Pelvic kidney"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000256",
+        "label": "Macrocephaly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002342",
+        "label": "Moderate intellectual disability"
+      }
+    }
+  ]
+}

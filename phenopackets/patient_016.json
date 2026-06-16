@@ -1,0 +1,68 @@
+{
+  "id": "patient_016",
+  "subject": {
+    "id": "patient_016"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0004220",
+        "label": "Short middle phalanx of the 5th finger"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000322",
+        "label": "Short philtrum"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010047",
+        "label": "Short 5th metacarpal"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004322",
+        "label": "Short stature"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000327",
+        "label": "Hypoplasia of the maxilla"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003015",
+        "label": "Flared metaphysis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000233",
+        "label": "Thin vermilion border"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004558",
+        "label": "Cervical platyspondyly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0006323",
+        "label": "Premature loss of primary teeth"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:6001098",
+        "label": "Metaphyseal undermodelling"
+      }
+    }
+  ]
+}

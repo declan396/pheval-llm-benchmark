@@ -1,0 +1,62 @@
+{
+  "id": "patient_002",
+  "subject": {
+    "id": "patient_002"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0000938",
+        "label": "Osteopenia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002007",
+        "label": "Frontal bossing"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004440",
+        "label": "Coronal craniosynostosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:6000871",
+        "label": "Popcorn calcification"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004322",
+        "label": "Short stature"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000694",
+        "label": "Odontodysplasia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000309",
+        "label": "Abnormal midface morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0025589",
+        "label": "Cyclodeviation"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000860",
+        "label": "Parathyroid hypoplasia"
+      }
+    }
+  ]
+}

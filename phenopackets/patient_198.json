@@ -1,0 +1,62 @@
+{
+  "id": "patient_198",
+  "subject": {
+    "id": "patient_198"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0000003",
+        "label": "Multicystic kidney dysplasia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001407",
+        "label": "Hepatic cysts"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000804",
+        "label": "Xanthine nephrolithiasis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012624",
+        "label": "Stage 2 chronic kidney disease"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012211",
+        "label": "Abnormal renal physiology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011004",
+        "label": "Abnormal systemic arterial morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012210",
+        "label": "Abnormal renal morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0025847",
+        "label": "Fish allergy"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:6001058",
+        "label": "Anti-neuronal intermediate filament antibody positivity"
+      }
+    }
+  ]
+}

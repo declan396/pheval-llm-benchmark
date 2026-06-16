@@ -1,0 +1,32 @@
+{
+  "id": "patient_124",
+  "subject": {
+    "id": "patient_124"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0007843",
+        "label": "Attenuation of retinal blood vessels"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000512",
+        "label": "Abnormal electroretinogram"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0007737",
+        "label": "Spicular pigmentation of the retina"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012432",
+        "label": "Chronic fatigue"
+      }
+    }
+  ]
+}

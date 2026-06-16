@@ -1,0 +1,20 @@
+{
+  "id": "patient_077",
+  "subject": {
+    "id": "patient_077"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0011003",
+        "label": "High myopia"
+      },
+      "onset": {
+        "ontologyClass": {
+          "id": "HP:0011463",
+          "label": "Childhood onset"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "patient_113",
+  "subject": {
+    "id": "patient_113"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0000093",
+        "label": "Proteinuria"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000648",
+        "label": "Optic atrophy"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001761",
+        "label": "Pes cavus"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0007495",
+        "label": "Prematurely aged appearance"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000275",
+        "label": "Narrow face"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0007843",
+        "label": "Attenuation of retinal blood vessels"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004334",
+        "label": "Dermal atrophy"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000618",
+        "label": "Blindness"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003510",
+        "label": "Severe short stature"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0006323",
+        "label": "Premature loss of primary teeth"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0100510",
+        "label": "Decreased circulating vitamin C concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0020153",
+        "label": "Positive blood 1,3 beta glucan test"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0033023",
+        "label": "Chronic absent circulating IgE"
+      }
+    }
+  ]
+}

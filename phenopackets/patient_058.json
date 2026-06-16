@@ -1,0 +1,14 @@
+{
+  "id": "patient_058",
+  "subject": {
+    "id": "patient_058"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0001939",
+        "label": "Abnormality of metabolism/homeostasis"
+      }
+    }
+  ]
+}

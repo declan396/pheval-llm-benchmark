@@ -1,0 +1,20 @@
+{
+  "id": "patient_069",
+  "subject": {
+    "id": "patient_069"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0007984",
+        "label": "Electronegative electroretinogram"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0031720",
+        "label": "Simulated distance exotropia"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "patient_042",
+  "subject": {
+    "id": "patient_042"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0003447",
+        "label": "Axonal loss"
+      }
+    }
+  ]
+}

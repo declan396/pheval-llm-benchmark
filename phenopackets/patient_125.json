@@ -1,0 +1,14 @@
+{
+  "id": "patient_125",
+  "subject": {
+    "id": "patient_125"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0002725",
+        "label": "Systemic lupus erythematosus"
+      }
+    }
+  ]
+}

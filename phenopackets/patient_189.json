@@ -1,0 +1,158 @@
+{
+  "id": "patient_189",
+  "subject": {
+    "id": "patient_189"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0004325",
+        "label": "Decreased body weight"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003468",
+        "label": "Abnormal vertebral morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0034323",
+        "label": "Reduced circulating growth hormone concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005280",
+        "label": "Depressed nasal bridge"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000035",
+        "label": "Abnormal testis morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:6000006",
+        "label": "Holster sign"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000290",
+        "label": "Abnormal forehead morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005484",
+        "label": "Secondary microcephaly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004322",
+        "label": "Short stature"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003950",
+        "label": "Flared elbow metaphyses"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005916",
+        "label": "Abnormal metacarpal morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011910",
+        "label": "Shortening of all phalanges of fingers"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004349",
+        "label": "Reduced bone mineral density"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002750",
+        "label": "Delayed skeletal maturation"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011121",
+        "label": "Abnormal skin morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012795",
+        "label": "Abnormal optic disc morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001595",
+        "label": "Abnormal hair morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004325",
+        "label": "Decreased body weight"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012373",
+        "label": "Abnormal eye physiology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011121",
+        "label": "Abnormal skin morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000505",
+        "label": "Visual impairment"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000517",
+        "label": "Abnormal lens morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0030353",
+        "label": "Decreased circulating serum insulin-like growth factor 1 concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011408",
+        "label": "Moderate intrauterine growth retardation"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004768",
+        "label": "Sparse anterior scalp hair"
+      }
+    }
+  ]
+}

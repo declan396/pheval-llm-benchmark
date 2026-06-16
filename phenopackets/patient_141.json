@@ -1,0 +1,26 @@
+{
+  "id": "patient_141",
+  "subject": {
+    "id": "patient_141"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0000506",
+        "label": "Telecanthus"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000610",
+        "label": "Abnormal choroid morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:6000627",
+        "label": "Rest limb pain"
+      }
+    }
+  ]
+}

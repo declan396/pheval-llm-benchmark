@@ -1,0 +1,14 @@
+{
+  "id": "patient_064",
+  "subject": {
+    "id": "patient_064"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0000164",
+        "label": "Abnormality of the dentition"
+      }
+    }
+  ]
+}

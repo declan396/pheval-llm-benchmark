@@ -1,0 +1,50 @@
+{
+  "id": "patient_105",
+  "subject": {
+    "id": "patient_105"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0003693",
+        "label": "Distal amyotrophy"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002460",
+        "label": "Distal muscle weakness"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0007267",
+        "label": "Chronic axonal neuropathy"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000553",
+        "label": "Abnormal uvea morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001760",
+        "label": "Abnormal foot morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0031476",
+        "label": "Abnormal buccal mucosa cell morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003724",
+        "label": "Shoulder girdle muscle atrophy"
+      }
+    }
+  ]
+}

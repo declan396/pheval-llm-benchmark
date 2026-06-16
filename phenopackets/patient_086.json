@@ -1,0 +1,176 @@
+{
+  "id": "patient_086",
+  "subject": {
+    "id": "patient_086"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0000612",
+        "label": "Iris coloboma"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011304",
+        "label": "Broad thumb"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002119",
+        "label": "Ventriculomegaly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0009942",
+        "label": "Duplication of thumb phalanx"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001274",
+        "label": "Agenesis of corpus callosum"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0025770",
+        "label": "2-3 finger osseus syndactyly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001177",
+        "label": "Preaxial hand polydactyly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001263",
+        "label": "Global developmental delay"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000324",
+        "label": "Facial asymmetry"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0009890",
+        "label": "High anterior hairline"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012450",
+        "label": "Chronic constipation"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002126",
+        "label": "Polymicrogyria"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0007206",
+        "label": "Hemimegalencephaly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002566",
+        "label": "Intestinal malrotation"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000568",
+        "label": "Microphthalmia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001007",
+        "label": "Hirsutism"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0007099",
+        "label": "Chiari type I malformation"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0100267",
+        "label": "Lip pit"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004389",
+        "label": "Intestinal pseudo-obstruction"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0025480",
+        "label": "Lipomyelomeningocele"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001760",
+        "label": "Abnormal foot morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012443",
+        "label": "Abnormal brain morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011316",
+        "label": "Left unicoronal synostosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:4000057",
+        "label": "Decreased FasL-mediated apoptosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003453",
+        "label": "Antineutrophil antibody positivity"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002017",
+        "label": "Nausea and vomiting"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0007737",
+        "label": "Spicular pigmentation of the retina"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011494",
+        "label": "Generalized opacification of the cornea"
+      }
+    }
+  ]
+}

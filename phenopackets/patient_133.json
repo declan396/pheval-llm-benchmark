@@ -1,0 +1,98 @@
+{
+  "id": "patient_133",
+  "subject": {
+    "id": "patient_133"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0000293",
+        "label": "Full cheeks"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008081",
+        "label": "Pes valgus"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003259",
+        "label": "Elevated circulating creatinine concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002091",
+        "label": "Restrictive ventilatory defect"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008905",
+        "label": "Rhizomelia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0100790",
+        "label": "Hernia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000219",
+        "label": "Thin upper lip vermilion"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005831",
+        "label": "Type B brachydactyly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000517",
+        "label": "Abnormal lens morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012593",
+        "label": "Nephrotic range proteinuria"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0034374",
+        "label": "Trident acetabulum"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0500066",
+        "label": "Latent myopia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000431",
+        "label": "Wide nasal bridge"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005241",
+        "label": "Total intestinal aganglionosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0100647",
+        "label": "Graves disease"
+      }
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "patient_015",
+  "subject": {
+    "id": "patient_015"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0001251",
+        "label": "Ataxia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001089",
+        "label": "Iris atrophy"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001337",
+        "label": "Tremor"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001300",
+        "label": "Parkinsonism"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002172",
+        "label": "Postural instability"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002180",
+        "label": "Neurodegeneration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000640",
+        "label": "Gaze-evoked nystagmus"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0100543",
+        "label": "Cognitive impairment"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000802",
+        "label": "Impotence"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012332",
+        "label": "Abnormal autonomic nervous system physiology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008376",
+        "label": "Nasal dysarthria"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001317",
+        "label": "Abnormal cerebellum morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000970",
+        "label": "Anhidrosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010992",
+        "label": "Stress urinary incontinence"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005307",
+        "label": "Postural hypotension with compensatory tachycardia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002396",
+        "label": "Cogwheel rigidity"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008568",
+        "label": "Vestibular areflexia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:6000548",
+        "label": "Positive CSF Borrelia burgdorferi nucleic acid test"
+      }
+    }
+  ]
+}

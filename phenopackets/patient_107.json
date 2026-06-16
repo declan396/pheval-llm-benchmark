@@ -1,0 +1,14 @@
+{
+  "id": "patient_107",
+  "subject": {
+    "id": "patient_107"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0000869",
+        "label": "Secondary amenorrhea"
+      }
+    }
+  ]
+}

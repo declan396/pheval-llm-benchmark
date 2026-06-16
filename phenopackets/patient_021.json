@@ -1,0 +1,20 @@
+{
+  "id": "patient_021",
+  "subject": {
+    "id": "patient_021"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0001251",
+        "label": "Ataxia"
+      },
+      "modifiers": [
+        {
+          "id": "HP:0012825",
+          "label": "Mild"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "id": "patient_060",
+  "subject": {
+    "id": "patient_060"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0004322",
+        "label": "Short stature"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000750",
+        "label": "Delayed speech and language development"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012649",
+        "label": "Increased inflammatory response"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:5200050",
+        "label": "Excessive checking"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012638",
+        "label": "Abnormal nervous system physiology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000403",
+        "label": "Recurrent otitis media"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005484",
+        "label": "Secondary microcephaly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011343",
+        "label": "Moderate global developmental delay"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0200055",
+        "label": "Small hand"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000708",
+        "label": "Atypical behavior"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001250",
+        "label": "Seizure"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0006829",
+        "label": "Severe muscular hypotonia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011298",
+        "label": "Prominent digit pad"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011950",
+        "label": "Bronchiolitis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:5200423",
+        "label": "Abnormal experience of reality"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002088",
+        "label": "Abnormal lung morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0033796",
+        "label": "Abnormal leukocyte physiology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010864",
+        "label": "Severe intellectual disability"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001773",
+        "label": "Short foot"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000349",
+        "label": "Widow's peak"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005105",
+        "label": "Abnormal nasal morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001999",
+        "label": "Abnormal facial shape"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0100658",
+        "label": "Cellulitis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002011",
+        "label": "Morphological central nervous system abnormality"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0009373",
+        "label": "Type C brachydactyly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0025770",
+        "label": "2-3 finger osseus syndactyly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0100440",
+        "label": "Bullet-shaped distal phalanx of the 3rd toe"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010747",
+        "label": "Medial flaring of the eyebrow"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0007470",
+        "label": "Periarticular subcutaneous nodules"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0034131",
+        "label": "Anti-GT1b antibody positivity"
+      }
+    }
+  ]
+}

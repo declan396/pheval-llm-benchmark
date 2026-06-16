@@ -1,0 +1,20 @@
+{
+  "id": "patient_028",
+  "subject": {
+    "id": "patient_028"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0006535",
+        "label": "Recurrent intrapulmonary hemorrhage"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002105",
+        "label": "Hemoptysis"
+      }
+    }
+  ]
+}

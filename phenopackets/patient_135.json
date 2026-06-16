@@ -1,0 +1,104 @@
+{
+  "id": "patient_135",
+  "subject": {
+    "id": "patient_135"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0002028",
+        "label": "Chronic diarrhea"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011458",
+        "label": "Abdominal symptom"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004325",
+        "label": "Decreased body weight"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005374",
+        "label": "Cellular immunodeficiency"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001433",
+        "label": "Hepatosplenomegaly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0410042",
+        "label": "Abnormal liver morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012719",
+        "label": "Functional abnormality of the gastrointestinal tract"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002014",
+        "label": "Diarrhea"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005105",
+        "label": "Abnormal nasal morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0040149",
+        "label": "Woolly scalp hair"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0009886",
+        "label": "Trichorrhexis nodosa"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0040303",
+        "label": "Decreased circulating iron concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012718",
+        "label": "Abnormal gastrointestinal tract morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0032211",
+        "label": "Increased urinary epithelial cell count"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008020",
+        "label": "Cone dystrophy"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0025148",
+        "label": "Dark choroid"
+      }
+    }
+  ]
+}

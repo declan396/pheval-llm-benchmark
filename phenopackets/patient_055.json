@@ -1,0 +1,188 @@
+{
+  "id": "patient_055",
+  "subject": {
+    "id": "patient_055"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0001789",
+        "label": "Hydrops fetalis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010655",
+        "label": "Epiphyseal stippling"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004322",
+        "label": "Short stature"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004333",
+        "label": "Bone-marrow foam cells"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001638",
+        "label": "Cardiomyopathy"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000407",
+        "label": "Sensorineural hearing impairment"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003461",
+        "label": "Increased urinary O-linked sialopeptides"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000529",
+        "label": "Progressive visual loss"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001250",
+        "label": "Seizure"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001324",
+        "label": "Muscle weakness"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000280",
+        "label": "Coarse facial features"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010729",
+        "label": "Cherry red spot of the macula"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001252",
+        "label": "Hypotonia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000639",
+        "label": "Nystagmus"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001347",
+        "label": "Hyperreflexia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003202",
+        "label": "Skeletal muscle atrophy"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000943",
+        "label": "Dysostosis multiplex"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001336",
+        "label": "Myoclonus"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000023",
+        "label": "Inguinal hernia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:6000911",
+        "label": "Reduced tissue neuraminidase activity"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001922",
+        "label": "Vacuolated lymphocytes"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012061",
+        "label": "Urinary excretion of sialylated oligosaccharides"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001350",
+        "label": "Slurred speech"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001438",
+        "label": "Abnormal abdomen morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010227",
+        "label": "Pseudoepiphysis of the 5th metacarpal"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012600",
+        "label": "Abnormal urine chloride concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0007554",
+        "label": "Confetti hypopigmentation pattern of lower leg skin"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0500070",
+        "label": "Conjunctival dermolipoma"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:5200056",
+        "label": "Limited head nodding or shaking"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:6000444",
+        "label": "Elevated blood cadmiun concentration"
+      }
+    }
+  ]
+}

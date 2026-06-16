@@ -1,0 +1,146 @@
+{
+  "id": "patient_185",
+  "subject": {
+    "id": "patient_185"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0000276",
+        "label": "Long face"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011681",
+        "label": "Subarterial ventricular septal defect"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011874",
+        "label": "Heparin-induced thrombocytopenia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011804",
+        "label": "Abnormal muscle physiology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012649",
+        "label": "Increased inflammatory response"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0031703",
+        "label": "Abnormal ear morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012733",
+        "label": "Macule"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000448",
+        "label": "Prominent nose"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001877",
+        "label": "Abnormal erythrocyte morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012638",
+        "label": "Abnormal nervous system physiology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012381",
+        "label": "Delayed self-feeding during toddler years"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000670",
+        "label": "Carious teeth"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0033564",
+        "label": "Stasis dermatitis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010445",
+        "label": "Primum atrial septal defect"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000953",
+        "label": "Hyperpigmentation of the skin"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000494",
+        "label": "Downslanted palpebral fissures"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000821",
+        "label": "Hypothyroidism"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001882",
+        "label": "Decreased total leukocyte count"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0032101",
+        "label": "Unusual infection"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:6000544",
+        "label": "Positive mycobacterium CSF microscopy"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0100244",
+        "label": "Fibrosarcoma"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0009485",
+        "label": "Radial deviation of the hand or of fingers of the hand"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:6001053",
+        "label": "Vertebra plana"
+      }
+    }
+  ]
+}

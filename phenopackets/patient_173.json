@@ -1,0 +1,14 @@
+{
+  "id": "patient_173",
+  "subject": {
+    "id": "patient_173"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0003124",
+        "label": "Hypercholesterolemia"
+      }
+    }
+  ]
+}

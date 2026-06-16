@@ -1,0 +1,206 @@
+{
+  "id": "patient_142",
+  "subject": {
+    "id": "patient_142"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0002381",
+        "label": "Aphasia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011227",
+        "label": "Elevated circulating C-reactive protein concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:6000562",
+        "label": "Reduced circulating adenosine deaminase-2 activity"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000403",
+        "label": "Recurrent otitis media"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001744",
+        "label": "Splenomegaly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003565",
+        "label": "Elevated erythrocyte sedimentation rate"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001894",
+        "label": "Thrombocytosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0033260",
+        "label": "Livedo racemosa"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000155",
+        "label": "Oral ulcer"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0200042",
+        "label": "Skin ulcer"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002910",
+        "label": "Elevated circulating hepatic transaminase concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002716",
+        "label": "Lymphadenopathy"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001433",
+        "label": "Hepatosplenomegaly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000979",
+        "label": "Purpura"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011108",
+        "label": "Recurrent sinusitis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001945",
+        "label": "Fever"
+      },
+      "modifiers": [
+        {
+          "id": "HP:0031796",
+          "label": "Recurrent"
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": "HP:0002040",
+        "label": "Esophageal varix"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0025343",
+        "label": "Lupus anticoagulant"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0030880",
+        "label": "Raynaud phenomenon"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001297",
+        "label": "Stroke"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004313",
+        "label": "Decreased circulating immunoglobulin concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0030351",
+        "label": "Urticarial plaque"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002829",
+        "label": "Arthralgia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000713",
+        "label": "Agitation"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000965",
+        "label": "Cutis marmorata"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0033261",
+        "label": "Renal artery aneurysm"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004374",
+        "label": "Hemiplegia/hemiparesis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:6000599",
+        "label": "Elevated urinary 2-oxoisocaproic level"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0025776",
+        "label": "Thought insertion"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008141",
+        "label": "Dislocation of toes"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012231",
+        "label": "Serous retinal detachment"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0020252",
+        "label": "Abnormal bursal fluid morphology"
+      }
+    }
+  ]
+}

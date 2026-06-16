@@ -1,0 +1,62 @@
+{
+  "id": "patient_195",
+  "subject": {
+    "id": "patient_195"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0001880",
+        "label": "Increased total eosinophil count"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001974",
+        "label": "Increased total leukocyte count"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001945",
+        "label": "Fever"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002720",
+        "label": "Decreased circulating IgA concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012490",
+        "label": "Panniculitis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0033605",
+        "label": "Pustular rash"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0045029",
+        "label": "Eosinophilic fasciitis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0033628",
+        "label": "Bowel irritability"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:6000747",
+        "label": "Abnormal urinary creatine level"
+      }
+    }
+  ]
+}

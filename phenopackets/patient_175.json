@@ -1,0 +1,14 @@
+{
+  "id": "patient_175",
+  "subject": {
+    "id": "patient_175"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0020120",
+        "label": "Retinal nerve fiber edema"
+      }
+    }
+  ]
+}

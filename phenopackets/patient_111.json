@@ -1,0 +1,20 @@
+{
+  "id": "patient_111",
+  "subject": {
+    "id": "patient_111"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0000365",
+        "label": "Hearing impairment"
+      },
+      "onset": {
+        "ontologyClass": {
+          "id": "HP:0003593",
+          "label": "Infantile onset"
+        }
+      }
+    }
+  ]
+}

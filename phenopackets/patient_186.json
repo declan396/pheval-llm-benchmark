@@ -1,0 +1,62 @@
+{
+  "id": "patient_186",
+  "subject": {
+    "id": "patient_186"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0034288",
+        "label": "Elevated circulating reverse T3 concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002027",
+        "label": "Abdominal pain"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0033192",
+        "label": "Decreased circulating selenium concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0033076",
+        "label": "Abnormal circulating free T4 concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003388",
+        "label": "Easy fatigability"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003473",
+        "label": "Fatigable weakness"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0031508",
+        "label": "Abnormal circulating thyroid hormone concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0035022",
+        "label": "Elevated circulating very long-chain acylcarnitine concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0032692",
+        "label": "Focal cognitive seizure with forced thinking"
+      }
+    }
+  ]
+}

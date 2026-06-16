@@ -1,0 +1,188 @@
+{
+  "id": "patient_052",
+  "subject": {
+    "id": "patient_052"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0034662",
+        "label": "Elevated urine 2-methylcitric acid level"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002919",
+        "label": "Ketonuria"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001252",
+        "label": "Hypotonia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001942",
+        "label": "Metabolic acidosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0031962",
+        "label": "Elevated serum anion gap"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001348",
+        "label": "Brisk reflexes"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0034661",
+        "label": "Elevated urine 3-hydroxypropionic acid level"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001337",
+        "label": "Tremor"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002912",
+        "label": "Methylmalonic acidemia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001508",
+        "label": "Failure to thrive"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003145",
+        "label": "Decreased circulating adenosylcobalamin concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003210",
+        "label": "Decreased methylmalonyl-CoA mutase activity"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0006564",
+        "label": "Fluctuating hepatomegaly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011875",
+        "label": "Abnormal platelet morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011470",
+        "label": "Nasogastric tube feeding in infancy"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012758",
+        "label": "Neurodevelopmental delay"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0032725",
+        "label": "Focal impaired awareness clonic seizure"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008162",
+        "label": "Asymptomatic hyperammonemia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011992",
+        "label": "Abnormal neutrophil morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001325",
+        "label": "Hypoglycemic coma"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001876",
+        "label": "Pancytopenia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004885",
+        "label": "Episodic respiratory distress"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003215",
+        "label": "Dicarboxylic aciduria"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0030071",
+        "label": "Medulloepithelioma"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0041228",
+        "label": "Fractured distal tarsal bone 3"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0020088",
+        "label": "Post-vaccination measles"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004742",
+        "label": "Abnormal renal collecting system morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0032919",
+        "label": "Focal aware head nodding automatism seizure"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:6001323",
+        "label": "Anterior ankle pain"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:4000196",
+        "label": "Reduced heparan-alpha-glucosaminide N-acetyltransferase activity in cultured fibroblasts"
+      }
+    }
+  ]
+}

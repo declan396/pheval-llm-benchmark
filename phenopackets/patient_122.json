@@ -1,0 +1,20 @@
+{
+  "id": "patient_122",
+  "subject": {
+    "id": "patient_122"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0001635",
+        "label": "Congestive heart failure"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001644",
+        "label": "Dilated cardiomyopathy"
+      }
+    }
+  ]
+}

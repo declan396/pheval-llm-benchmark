@@ -1,0 +1,92 @@
+{
+  "id": "patient_010",
+  "subject": {
+    "id": "patient_010"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0004334",
+        "label": "Dermal atrophy"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0006739",
+        "label": "Squamous cell carcinoma of the skin"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001903",
+        "label": "Anemia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001394",
+        "label": "Cirrhosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002745",
+        "label": "Oral leukoplakia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000670",
+        "label": "Carious teeth"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002863",
+        "label": "Myelodysplasia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001888",
+        "label": "Decreased total lymphocyte count"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002232",
+        "label": "Patchy alopecia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011138",
+        "label": "Abnormal skin adnexa morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005528",
+        "label": "Bone marrow hypocellularity"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0100748",
+        "label": "Muscular edema"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012134",
+        "label": "Dysplastic erythropoesis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0032629",
+        "label": "Intratubular dihydroxyadenuria crystals"
+      }
+    }
+  ]
+}

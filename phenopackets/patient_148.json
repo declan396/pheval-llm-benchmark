@@ -1,0 +1,56 @@
+{
+  "id": "patient_148",
+  "subject": {
+    "id": "patient_148"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0002548",
+        "label": "Parkinsonism with favorable response to dopaminergic medication"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002067",
+        "label": "Bradykinesia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002063",
+        "label": "Rigidity"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002322",
+        "label": "Resting tremor"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000716",
+        "label": "Depression"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002172",
+        "label": "Postural instability"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0034782",
+        "label": "Obstipation"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:6000490",
+        "label": "Impaired heel-walking ability"
+      }
+    }
+  ]
+}

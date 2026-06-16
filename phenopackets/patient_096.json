@@ -1,0 +1,56 @@
+{
+  "id": "patient_096",
+  "subject": {
+    "id": "patient_096"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0003557",
+        "label": "Increased variability in muscle fiber diameter"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0030237",
+        "label": "Hand muscle weakness"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008963",
+        "label": "Tibialis muscle weakness"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0200136",
+        "label": "Oral-pharyngeal dysphagia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011805",
+        "label": "Abnormal skeletal muscle morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0031826",
+        "label": "Abnormal reflex"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008756",
+        "label": "Bowing of the vocal cords"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0025643",
+        "label": "Tarlov cyst"
+      }
+    }
+  ]
+}

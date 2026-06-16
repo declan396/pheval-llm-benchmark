@@ -1,0 +1,20 @@
+{
+  "id": "patient_046",
+  "subject": {
+    "id": "patient_046"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0004487",
+        "label": "Acrobrachycephaly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0009906",
+        "label": "Aplasia/Hypoplasia of the earlobes"
+      }
+    }
+  ]
+}

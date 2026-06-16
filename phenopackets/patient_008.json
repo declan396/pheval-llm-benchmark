@@ -1,0 +1,20 @@
+{
+  "id": "patient_008",
+  "subject": {
+    "id": "patient_008"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0000501",
+        "label": "Glaucoma"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001126",
+        "label": "Cryptophthalmos"
+      }
+    }
+  ]
+}

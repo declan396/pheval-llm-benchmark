@@ -1,0 +1,164 @@
+{
+  "id": "patient_079",
+  "subject": {
+    "id": "patient_079"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0002808",
+        "label": "Kyphosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003067",
+        "label": "Madelung deformity"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000750",
+        "label": "Delayed speech and language development"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001737",
+        "label": "Pancreatic cysts"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000378",
+        "label": "Cupped ear"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002751",
+        "label": "Kyphoscoliosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000805",
+        "label": "Enuresis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002579",
+        "label": "Gastrointestinal dysmotility"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001270",
+        "label": "Motor delay"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000488",
+        "label": "Retinopathy"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003502",
+        "label": "Mild short stature"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004485",
+        "label": "Cessation of head growth"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0006889",
+        "label": "Borderline intellectual disability"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000734",
+        "label": "Disinhibition"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000545",
+        "label": "Myopia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012853",
+        "label": "Scrotal hypospadias"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000753",
+        "label": "Autism with high cognitive abilities"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0030680",
+        "label": "Abnormal cardiovascular system morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0100884",
+        "label": "Compensatory scoliosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002242",
+        "label": "Abnormal intestine morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003248",
+        "label": "Gonadal tissue inappropriate for external genitalia or chromosomal sex"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0025142",
+        "label": "Constitutional symptom"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0031567",
+        "label": "Abnormal aortic valve cusp morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:6000160",
+        "label": "Splenic lipid-laden macrophage infiltration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005374",
+        "label": "Cellular immunodeficiency"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001120",
+        "label": "Abnormality of corneal size"
+      }
+    }
+  ]
+}

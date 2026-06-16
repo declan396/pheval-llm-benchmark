@@ -1,0 +1,20 @@
+{
+  "id": "patient_136",
+  "subject": {
+    "id": "patient_136"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0020086",
+        "label": "BCGitis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002721",
+        "label": "Immunodeficiency"
+      }
+    }
+  ]
+}

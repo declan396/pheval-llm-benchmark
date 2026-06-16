@@ -1,0 +1,68 @@
+{
+  "id": "patient_160",
+  "subject": {
+    "id": "patient_160"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0002572",
+        "label": "Episodic vomiting"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008872",
+        "label": "Feeding difficulties in infancy"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001290",
+        "label": "Generalized hypotonia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001270",
+        "label": "Motor delay"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000028",
+        "label": "Cryptorchidism"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001288",
+        "label": "Gait disturbance"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004383",
+        "label": "Hypoplastic left ventricle"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0500011",
+        "label": "Moon facies"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010864",
+        "label": "Severe intellectual disability"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008619",
+        "label": "Bilateral sensorineural hearing impairment"
+      }
+    }
+  ]
+}

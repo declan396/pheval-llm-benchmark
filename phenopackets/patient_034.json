@@ -1,0 +1,14 @@
+{
+  "id": "patient_034",
+  "subject": {
+    "id": "patient_034"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0000961",
+        "label": "Cyanosis"
+      }
+    }
+  ]
+}

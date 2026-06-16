@@ -1,0 +1,20 @@
+{
+  "id": "patient_130",
+  "subject": {
+    "id": "patient_130"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0031065",
+        "label": "Abnormal ovarian morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008232",
+        "label": "Elevated circulating follicle stimulating hormone level"
+      }
+    }
+  ]
+}

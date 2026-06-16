@@ -1,0 +1,50 @@
+{
+  "id": "patient_159",
+  "subject": {
+    "id": "patient_159"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0025792",
+        "label": "Abnormal cognitive process"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001249",
+        "label": "Intellectual disability"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000253",
+        "label": "Progressive microcephaly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005769",
+        "label": "Fifth finger distal phalanx clinodactyly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001601",
+        "label": "Laryngomalacia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000071",
+        "label": "Ureteral stenosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011294",
+        "label": "EEG with frontal sharp waves"
+      }
+    }
+  ]
+}

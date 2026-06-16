@@ -1,0 +1,38 @@
+{
+  "id": "patient_180",
+  "subject": {
+    "id": "patient_180"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0000823",
+        "label": "Delayed puberty"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008214",
+        "label": "Decreased serum estradiol"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011969",
+        "label": "Elevated circulating luteinizing hormone level"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0031065",
+        "label": "Abnormal ovarian morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0009572",
+        "label": "Osteolytic defects of the middle phalanx of the 2nd finger"
+      }
+    }
+  ]
+}

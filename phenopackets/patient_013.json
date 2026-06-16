@@ -1,0 +1,62 @@
+{
+  "id": "patient_013",
+  "subject": {
+    "id": "patient_013"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0002762",
+        "label": "Multiple exostoses"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003105",
+        "label": "Protuberances at ends of long bones"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000918",
+        "label": "Scapular exostoses"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004322",
+        "label": "Short stature"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002812",
+        "label": "Coxa vara"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002857",
+        "label": "Genu valgum"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003068",
+        "label": "Madelung-like forearm deformities"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0034238",
+        "label": "Closed neural tube defect"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005187",
+        "label": "Progressive joint destruction"
+      }
+    }
+  ]
+}

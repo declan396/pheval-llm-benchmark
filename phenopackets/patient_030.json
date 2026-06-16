@@ -1,0 +1,86 @@
+{
+  "id": "patient_030",
+  "subject": {
+    "id": "patient_030"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0000501",
+        "label": "Glaucoma"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002039",
+        "label": "Anorexia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002113",
+        "label": "Pulmonary infiltrates"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010286",
+        "label": "Abnormal salivary gland morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003565",
+        "label": "Elevated erythrocyte sedimentation rate"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001094",
+        "label": "Iridocyclitis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002202",
+        "label": "Pleural effusion"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004325",
+        "label": "Decreased body weight"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001367",
+        "label": "Abnormal joint morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0033031",
+        "label": "Hyperpyrexia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0032408",
+        "label": "Breast mass"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005003",
+        "label": "Aplasia/Hypoplasia of the capital femoral epiphysis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0410216",
+        "label": "Abnormal blood 5-methyltetrahydrofolate level"
+      }
+    }
+  ]
+}

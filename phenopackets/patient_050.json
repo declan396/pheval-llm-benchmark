@@ -1,0 +1,14 @@
+{
+  "id": "patient_050",
+  "subject": {
+    "id": "patient_050"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0002715",
+        "label": "Abnormality of the immune system"
+      }
+    }
+  ]
+}

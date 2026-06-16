@@ -1,0 +1,11 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+*.key
+config.py
+exomiser_results/
+llm_results*/
+pheval_gene_results*/
+*.parquet
+*.duckdb

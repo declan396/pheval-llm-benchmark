@@ -1,0 +1,356 @@
+{
+  "id": "patient_193",
+  "subject": {
+    "id": "patient_193"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0001875",
+        "label": "Decreased total neutrophil count"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002421",
+        "label": "Poor head control"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001344",
+        "label": "Absent speech"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002719",
+        "label": "Recurrent infections"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001684",
+        "label": "Secundum atrial septal defect"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001252",
+        "label": "Hypotonia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000582",
+        "label": "Upslanted palpebral fissure"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000407",
+        "label": "Sensorineural hearing impairment"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000568",
+        "label": "Microphthalmia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008780",
+        "label": "Congenital bilateral hip dislocation"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011968",
+        "label": "Feeding difficulties"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001877",
+        "label": "Abnormal erythrocyte morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000105",
+        "label": "Enlarged kidney"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002750",
+        "label": "Delayed skeletal maturation"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000369",
+        "label": "Low-set ears"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012758",
+        "label": "Neurodevelopmental delay"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008232",
+        "label": "Elevated circulating follicle stimulating hormone level"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000290",
+        "label": "Abnormal forehead morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012786",
+        "label": "Recurrent cystitis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0025733",
+        "label": "Streak gonad"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0033281",
+        "label": "Circulating nucleated red blood cells"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0006794",
+        "label": "Loss of ability to walk in first decade"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0006564",
+        "label": "Fluctuating hepatomegaly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011297",
+        "label": "Abnormal digit morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0200007",
+        "label": "Abnormal size of the palpebral fissures"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001881",
+        "label": "Abnormal leukocyte morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0034311",
+        "label": "Hypoplastic optic chiasm"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0009073",
+        "label": "Progressive proximal muscle weakness"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000938",
+        "label": "Osteopenia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0040185",
+        "label": "Macrothrombocytopenia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012372",
+        "label": "Abnormal eye morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0200049",
+        "label": "Upper limb hypertonia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001249",
+        "label": "Intellectual disability"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0007371",
+        "label": "Corpus callosum atrophy"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001978",
+        "label": "Extramedullary hematopoiesis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002188",
+        "label": "Delayed CNS myelination"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011805",
+        "label": "Abnormal skeletal muscle morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011974",
+        "label": "Myelofibrosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001877",
+        "label": "Abnormal erythrocyte morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002705",
+        "label": "High, narrow palate"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000492",
+        "label": "Abnormal eyelid morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003077",
+        "label": "Hyperlipidemia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000055",
+        "label": "Abnormal female external genitalia morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0030680",
+        "label": "Abnormal cardiovascular system morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0031020",
+        "label": "Bone marrow hypercellularity"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0100842",
+        "label": "Septo-optic dysplasia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001182",
+        "label": "Tapered finger"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003762",
+        "label": "Uterus didelphys"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0030338",
+        "label": "Abnormal circulating gonadotropin concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002778",
+        "label": "Abnormal tracheal morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0025270",
+        "label": "Abnormal esophagus physiology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008056",
+        "label": "Aplasia/Hypoplasia affecting the eye"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002509",
+        "label": "Limb hypertonia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001507",
+        "label": "Growth abnormality"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001537",
+        "label": "Umbilical hernia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0031299",
+        "label": "Elevated left atrial pressure"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004311",
+        "label": "Abnormal macrophage morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0034800",
+        "label": "Urinary bladder granulomatosis"
+      }
+    }
+  ]
+}

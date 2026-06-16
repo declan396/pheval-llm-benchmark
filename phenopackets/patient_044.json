@@ -1,0 +1,32 @@
+{
+  "id": "patient_044",
+  "subject": {
+    "id": "patient_044"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0000786",
+        "label": "Primary amenorrhea"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011969",
+        "label": "Elevated circulating luteinizing hormone level"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000025",
+        "label": "Functional abnormality of male internal genitalia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0007570",
+        "label": "Hyperkeratosis lenticularis perstans"
+      }
+    }
+  ]
+}

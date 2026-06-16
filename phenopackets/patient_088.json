@@ -1,0 +1,38 @@
+{
+  "id": "patient_088",
+  "subject": {
+    "id": "patient_088"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0007479",
+        "label": "Congenital nonbullous ichthyosiform erythroderma"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0007465",
+        "label": "Honeycomb palmoplantar hyperkeratosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001194",
+        "label": "Abnormalities of placenta or umbilical cord"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001597",
+        "label": "Abnormal nail morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0040009",
+        "label": "Hyperparakeratosis"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "patient_011",
+  "subject": {
+    "id": "patient_011"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0000598",
+        "label": "Abnormality of the ear"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "patient_074",
+  "subject": {
+    "id": "patient_074"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0004818",
+        "label": "Paroxysmal nocturnal hemoglobinuria"
+      }
+    }
+  ]
+}

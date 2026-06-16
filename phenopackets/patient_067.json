@@ -1,0 +1,116 @@
+{
+  "id": "patient_067",
+  "subject": {
+    "id": "patient_067"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0002748",
+        "label": "Rickets"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000286",
+        "label": "Epicanthus"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000431",
+        "label": "Wide nasal bridge"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002007",
+        "label": "Frontal bossing"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004492",
+        "label": "Widely patent fontanelles and sutures"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000365",
+        "label": "Hearing impairment"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002289",
+        "label": "Alopecia universalis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000893",
+        "label": "Bulging of the costochondral junction"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0031415",
+        "label": "High serum calcitriol"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000951",
+        "label": "Abnormality of the skin"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0009023",
+        "label": "Abdominal wall muscle weakness"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003029",
+        "label": "Enlargement of the ankles"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010502",
+        "label": "Fibular bowing"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003808",
+        "label": "Abnormal muscle tone"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011842",
+        "label": "Abnormal skeletal morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003498",
+        "label": "Disproportionate short stature"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003020",
+        "label": "Enlargement of the wrists"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011796",
+        "label": "Perilobar nephroblastomatosis"
+      }
+    }
+  ]
+}

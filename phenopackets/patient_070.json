@@ -1,0 +1,68 @@
+{
+  "id": "patient_070",
+  "subject": {
+    "id": "patient_070"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0001156",
+        "label": "Brachydactyly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0031816",
+        "label": "Abnormal oral morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001000",
+        "label": "Abnormality of skin pigmentation"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000163",
+        "label": "Abnormal oral cavity morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011842",
+        "label": "Abnormal skeletal morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000582",
+        "label": "Upslanted palpebral fissure"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000316",
+        "label": "Hypertelorism"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003330",
+        "label": "Abnormal bone structure"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0032790",
+        "label": "Focal impaired awareness behavior arrest seizure"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:5200028",
+        "label": "Reduced responsiveness to social cues"
+      }
+    }
+  ]
+}

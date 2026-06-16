@@ -1,0 +1,116 @@
+{
+  "id": "patient_152",
+  "subject": {
+    "id": "patient_152"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0001249",
+        "label": "Intellectual disability"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001263",
+        "label": "Global developmental delay"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0007018",
+        "label": "Attention deficit hyperactivity disorder"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012758",
+        "label": "Neurodevelopmental delay"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000753",
+        "label": "Autism with high cognitive abilities"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010530",
+        "label": "Palatal tremor"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0020219",
+        "label": "Motor seizure"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0031670",
+        "label": "Continuous heart murmur"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011123",
+        "label": "Inflammatory abnormality of the skin"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008458",
+        "label": "Progressive congenital scoliosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0025792",
+        "label": "Abnormal cognitive process"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0032662",
+        "label": "Focal-onset seizure evolving into bilateral convulsive status epilepticus"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0031432",
+        "label": "Restricted or repetitive behaviors or interests"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000708",
+        "label": "Atypical behavior"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011804",
+        "label": "Abnormal muscle physiology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0006863",
+        "label": "Severe expressive language delay"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004325",
+        "label": "Decreased body weight"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0006381",
+        "label": "Rudimentary fibula"
+      }
+    }
+  ]
+}

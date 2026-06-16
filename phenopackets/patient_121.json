@@ -1,0 +1,44 @@
+{
+  "id": "patient_121",
+  "subject": {
+    "id": "patient_121"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0007420",
+        "label": "Spontaneous hematomas"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:6001318",
+        "label": "Plantar ecchymosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0034266",
+        "label": "Vaginal bleeding during sex"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000225",
+        "label": "Gingival bleeding"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011884",
+        "label": "Abnormal umbilical stump bleeding"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0030428",
+        "label": "Cutaneous myxoma"
+      }
+    }
+  ]
+}

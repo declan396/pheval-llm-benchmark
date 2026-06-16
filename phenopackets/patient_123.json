@@ -1,0 +1,14 @@
+{
+  "id": "patient_123",
+  "subject": {
+    "id": "patient_123"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0003510",
+        "label": "Severe short stature"
+      }
+    }
+  ]
+}

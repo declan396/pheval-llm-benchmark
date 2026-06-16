@@ -1,0 +1,26 @@
+{
+  "id": "patient_033",
+  "subject": {
+    "id": "patient_033"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0000308",
+        "label": "Microretrognathia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000119",
+        "label": "Abnormality of the genitourinary system"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0040030",
+        "label": "Chorioretinal hypopigmentation"
+      }
+    }
+  ]
+}

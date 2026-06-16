@@ -1,0 +1,80 @@
+{
+  "id": "patient_178",
+  "subject": {
+    "id": "patient_178"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0001337",
+        "label": "Tremor"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0025336",
+        "label": "Delayed ability to sit"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000708",
+        "label": "Atypical behavior"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:5200263",
+        "label": "Abnormally increased volition"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:5200423",
+        "label": "Abnormal experience of reality"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002060",
+        "label": "Abnormal cerebral morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0025792",
+        "label": "Abnormal cognitive process"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0031936",
+        "label": "Delayed ability to walk"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010531",
+        "label": "Spinal myoclonus"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010864",
+        "label": "Severe intellectual disability"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0032989",
+        "label": "Delayed ability to roll over"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:6000303",
+        "label": "Decreased skin turgor"
+      }
+    }
+  ]
+}

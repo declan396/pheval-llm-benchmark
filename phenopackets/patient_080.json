@@ -1,0 +1,86 @@
+{
+  "id": "patient_080",
+  "subject": {
+    "id": "patient_080"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0012210",
+        "label": "Abnormal renal morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0030680",
+        "label": "Abnormal cardiovascular system morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0032895",
+        "label": "Febrile seizure outside the age of 3 months to 6 years"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011030",
+        "label": "Abnormal blood transition element cation concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0007425",
+        "label": "Hyperextensible skin of face"
+      },
+      "modifiers": [
+        {
+          "id": "HP:0012825",
+          "label": "Mild"
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": "HP:0000918",
+        "label": "Scapular exostoses"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000772",
+        "label": "Abnormal rib morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008929",
+        "label": "Asymmetric short stature"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003367",
+        "label": "Abnormal femoral neck morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012638",
+        "label": "Abnormal nervous system physiology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001069",
+        "label": "Episodic hyperhidrosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0030230",
+        "label": "Central core regions in muscle fibers"
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "patient_134",
+  "subject": {
+    "id": "patient_134"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0002080",
+        "label": "Intention tremor"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002015",
+        "label": "Dysphagia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001332",
+        "label": "Dystonia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001249",
+        "label": "Intellectual disability"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001263",
+        "label": "Global developmental delay"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000684",
+        "label": "Delayed eruption of teeth"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001260",
+        "label": "Dysarthria"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010863",
+        "label": "Receptive language delay"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0030311",
+        "label": "Lower extremity joint dislocation"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0006483",
+        "label": "Abnormal number of teeth"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010533",
+        "label": "Spasmus nutans"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:3000006",
+        "label": "Abnormality of medial pterygoid muscle"
+      }
+    }
+  ]
+}

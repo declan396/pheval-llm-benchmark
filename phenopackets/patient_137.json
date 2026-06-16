@@ -1,0 +1,14 @@
+{
+  "id": "patient_137",
+  "subject": {
+    "id": "patient_137"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0200063",
+        "label": "Colorectal polyposis"
+      }
+    }
+  ]
+}

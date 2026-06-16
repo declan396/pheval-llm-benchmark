@@ -1,0 +1,50 @@
+{
+  "id": "patient_085",
+  "subject": {
+    "id": "patient_085"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0030151",
+        "label": "Cholangitis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001396",
+        "label": "Cholestasis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011980",
+        "label": "Cholesterol gallstones"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001082",
+        "label": "Cholecystitis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003155",
+        "label": "Elevated circulating alkaline phosphatase concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001408",
+        "label": "Bile duct proliferation"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012621",
+        "label": "Persistent cloaca"
+      }
+    }
+  ]
+}

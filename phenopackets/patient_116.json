@@ -1,0 +1,170 @@
+{
+  "id": "patient_116",
+  "subject": {
+    "id": "patient_116"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0001762",
+        "label": "Talipes equinovarus"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001348",
+        "label": "Brisk reflexes"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0007277",
+        "label": "Paucity of anterior horn motor neurons"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001349",
+        "label": "Facial diplegia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001290",
+        "label": "Generalized hypotonia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001288",
+        "label": "Gait disturbance"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011220",
+        "label": "Prominent forehead"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001989",
+        "label": "Fetal akinesia sequence"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002300",
+        "label": "Mutism"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0006802",
+        "label": "Abnormal anterior horn cell morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002705",
+        "label": "High, narrow palate"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008872",
+        "label": "Feeding difficulties in infancy"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001332",
+        "label": "Dystonia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011451",
+        "label": "Primary microcephaly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010674",
+        "label": "Abnormal curvature of the vertebral column"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000954",
+        "label": "Single transverse palmar crease"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:4000072",
+        "label": "Abnormal language feature"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008780",
+        "label": "Congenital bilateral hip dislocation"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005346",
+        "label": "Abnormal facial expression"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001288",
+        "label": "Gait disturbance"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0200006",
+        "label": "Slanting of the palpebral fissure"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005922",
+        "label": "Abnormal hand morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0007207",
+        "label": "Photosensitive tonic-clonic seizure"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002145",
+        "label": "Frontotemporal dementia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005978",
+        "label": "Type II diabetes mellitus"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0009281",
+        "label": "Aplasia of the 4th finger"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002234",
+        "label": "Early balding"
+      }
+    }
+  ]
+}

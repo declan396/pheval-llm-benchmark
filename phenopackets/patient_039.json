@@ -1,0 +1,20 @@
+{
+  "id": "patient_039",
+  "subject": {
+    "id": "patient_039"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0001798",
+        "label": "Anonychia"
+      },
+      "onset": {
+        "ontologyClass": {
+          "id": "HP:0003577",
+          "label": "Congenital onset"
+        }
+      }
+    }
+  ]
+}

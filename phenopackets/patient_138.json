@@ -1,0 +1,32 @@
+{
+  "id": "patient_138",
+  "subject": {
+    "id": "patient_138"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0001351",
+        "label": "Jerk-locked premyoclonus spikes"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001340",
+        "label": "Enhancement of the C-reflex"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001250",
+        "label": "Seizure"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001337",
+        "label": "Tremor"
+      }
+    }
+  ]
+}

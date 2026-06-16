@@ -1,0 +1,68 @@
+{
+  "id": "patient_017",
+  "subject": {
+    "id": "patient_017"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0003002",
+        "label": "Breast carcinoma"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0030410",
+        "label": "Sebaceous gland carcinoma"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0006778",
+        "label": "Benign genitourinary tract neoplasm"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002253",
+        "label": "Colonic diverticula"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002671",
+        "label": "Basal cell carcinoma"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0009720",
+        "label": "Adenoma sebaceum"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0100615",
+        "label": "Ovarian neoplasm"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0006771",
+        "label": "Duodenal adenocarcinoma"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0031929",
+        "label": "Perivascular pseudorosette"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0034346",
+        "label": "Nesidioblastosis"
+      }
+    }
+  ]
+}

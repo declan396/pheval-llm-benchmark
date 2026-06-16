@@ -1,0 +1,38 @@
+{
+  "id": "patient_143",
+  "subject": {
+    "id": "patient_143"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0034392",
+        "label": "Joint contracture"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003236",
+        "label": "Elevated circulating creatine kinase concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002206",
+        "label": "Pulmonary fibrosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000823",
+        "label": "Delayed puberty"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003020",
+        "label": "Enlargement of the wrists"
+      }
+    }
+  ]
+}

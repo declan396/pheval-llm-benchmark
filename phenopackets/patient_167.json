@@ -1,0 +1,38 @@
+{
+  "id": "patient_167",
+  "subject": {
+    "id": "patient_167"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0001283",
+        "label": "Bulbar palsy"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002381",
+        "label": "Aphasia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000708",
+        "label": "Atypical behavior"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0100314",
+        "label": "Cerebral inclusion bodies"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008984",
+        "label": "Neck muscle hypoplasia"
+      }
+    }
+  ]
+}

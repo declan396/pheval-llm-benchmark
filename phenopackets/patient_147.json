@@ -1,0 +1,50 @@
+{
+  "id": "patient_147",
+  "subject": {
+    "id": "patient_147"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0031964",
+        "label": "Elevated circulating alanine aminotransferase concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002850",
+        "label": "Decreased circulating total IgM"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0040204",
+        "label": "Elevated CSF neopterin level"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011837",
+        "label": "Partial IgA deficiency"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001888",
+        "label": "Decreased total lymphocyte count"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011997",
+        "label": "Postprandial hyperlactemia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0033465",
+        "label": "Elevated circulating tetradecanoylcarnitine concentration"
+      }
+    }
+  ]
+}

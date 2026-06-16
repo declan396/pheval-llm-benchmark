@@ -1,0 +1,14 @@
+{
+  "id": "patient_019",
+  "subject": {
+    "id": "patient_019"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0001336",
+        "label": "Myoclonus"
+      }
+    }
+  ]
+}

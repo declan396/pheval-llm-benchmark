@@ -1,0 +1,74 @@
+{
+  "id": "patient_024",
+  "subject": {
+    "id": "patient_024"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:6001053",
+        "label": "Vertebra plana"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000365",
+        "label": "Hearing impairment"
+      },
+      "onset": {
+        "ontologyClass": {
+          "id": "HP:0003581",
+          "label": "Adult onset"
+        }
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004942",
+        "label": "Aortic aneurysm"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002645",
+        "label": "Wormian bones"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0006094",
+        "label": "Finger joint hypermobility"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008780",
+        "label": "Congenital bilateral hip dislocation"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0040069",
+        "label": "Abnormal lower limb bone morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005855",
+        "label": "Multiple prenatal fractures"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0006460",
+        "label": "Ankle hypermobility"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0031316",
+        "label": "Abnormal ventricular myocardium morphology"
+      }
+    }
+  ]
+}

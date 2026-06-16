@@ -1,0 +1,80 @@
+{
+  "id": "patient_056",
+  "subject": {
+    "id": "patient_056"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0006313",
+        "label": "Widely spaced primary teeth"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000613",
+        "label": "Photophobia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011138",
+        "label": "Abnormal skin adnexa morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002213",
+        "label": "Fine hair"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005338",
+        "label": "Sparse lateral eyebrow"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004768",
+        "label": "Sparse anterior scalp hair"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0006349",
+        "label": "Agenesis of permanent teeth"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011359",
+        "label": "Dry hair"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0007556",
+        "label": "Plantar hyperkeratosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001597",
+        "label": "Abnormal nail morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0009922",
+        "label": "Vascular remnant arising from the disk"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012204",
+        "label": "Recurrent vulvovaginal candidiasis"
+      }
+    }
+  ]
+}

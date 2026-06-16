@@ -1,0 +1,38 @@
+{
+  "id": "patient_115",
+  "subject": {
+    "id": "patient_115"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0033505",
+        "label": "Livedo reticularis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001679",
+        "label": "Abnormal aortic morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0025015",
+        "label": "Abnormal vascular morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0500007",
+        "label": "Iris flocculi"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002483",
+        "label": "Bulbar signs"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "patient_038",
+  "subject": {
+    "id": "patient_038"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0002667",
+        "label": "Nephroblastoma"
+      }
+    }
+  ]
+}

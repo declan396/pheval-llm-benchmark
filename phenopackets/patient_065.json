@@ -1,0 +1,20 @@
+{
+  "id": "patient_065",
+  "subject": {
+    "id": "patient_065"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0011842",
+        "label": "Abnormal skeletal morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004328",
+        "label": "Abnormal anterior eye segment morphology"
+      }
+    }
+  ]
+}

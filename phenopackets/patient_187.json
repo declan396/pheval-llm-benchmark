@@ -1,0 +1,32 @@
+{
+  "id": "patient_187",
+  "subject": {
+    "id": "patient_187"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0000869",
+        "label": "Secondary amenorrhea"
+      },
+      "onset": {
+        "ontologyClass": {
+          "id": "HP:0025709",
+          "label": "Intermediate young adult onset"
+        }
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008209",
+        "label": "Premature ovarian insufficiency"
+      },
+      "onset": {
+        "ontologyClass": {
+          "id": "HP:0011462",
+          "label": "Young adult onset"
+        }
+      }
+    }
+  ]
+}

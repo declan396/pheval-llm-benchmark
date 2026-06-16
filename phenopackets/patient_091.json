@@ -1,0 +1,356 @@
+{
+  "id": "patient_091",
+  "subject": {
+    "id": "patient_091"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0000212",
+        "label": "Gingival overgrowth"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000664",
+        "label": "Synophrys"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000028",
+        "label": "Cryptorchidism"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000767",
+        "label": "Pectus excavatum"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000545",
+        "label": "Myopia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002342",
+        "label": "Moderate intellectual disability"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002299",
+        "label": "Brittle hair"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001274",
+        "label": "Agenesis of corpus callosum"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004325",
+        "label": "Decreased body weight"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002870",
+        "label": "Obstructive sleep apnea"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001276",
+        "label": "Hypertonia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003311",
+        "label": "Hypoplasia of the odontoid process"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000452",
+        "label": "Choanal stenosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003778",
+        "label": "Short mandibular rami"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002943",
+        "label": "Thoracic scoliosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001331",
+        "label": "Absent septum pellucidum"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002645",
+        "label": "Wormian bones"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001601",
+        "label": "Laryngomalacia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012472",
+        "label": "Eclabion"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001249",
+        "label": "Intellectual disability"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000325",
+        "label": "Triangular face"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008866",
+        "label": "Failure to thrive secondary to recurrent infections"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000520",
+        "label": "Proptosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005949",
+        "label": "Apneic episodes in infancy"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000369",
+        "label": "Low-set ears"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012759",
+        "label": "Neurodevelopmental abnormality"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0030669",
+        "label": "Abnormal ocular adnexa morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0009121",
+        "label": "Abnormal axial skeleton morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012638",
+        "label": "Abnormal nervous system physiology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001167",
+        "label": "Abnormal finger morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001212",
+        "label": "Prominent fingertip pads"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000545",
+        "label": "Myopia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0009570",
+        "label": "Bullet-shaped middle phalanx of the 2nd finger"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003196",
+        "label": "Short nose"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0030799",
+        "label": "Scaphocephaly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005105",
+        "label": "Abnormal nasal morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0006642",
+        "label": "Large sternal ossification centers"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008609",
+        "label": "Abnormal middle ear morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002100",
+        "label": "Recurrent aspiration pneumonia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0009650",
+        "label": "Short distal phalanx of the thumb"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011804",
+        "label": "Abnormal muscle physiology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005603",
+        "label": "Numerous congenital melanocytic nevi"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002118",
+        "label": "Abnormal cerebral ventricle morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000592",
+        "label": "Blue sclerae"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000309",
+        "label": "Abnormal midface morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011138",
+        "label": "Abnormal skin adnexa morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010759",
+        "label": "Prominence of the premaxilla"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011218",
+        "label": "Abnormal shape of the frontal region"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011476",
+        "label": "Profound sensorineural hearing impairment"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004322",
+        "label": "Short stature"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000290",
+        "label": "Abnormal forehead morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002705",
+        "label": "High, narrow palate"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005105",
+        "label": "Abnormal nasal morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010674",
+        "label": "Abnormal curvature of the vertebral column"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000269",
+        "label": "Prominent occiput"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:3000030",
+        "label": "Abnormal morphology of bony orbit of skull"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:6000596",
+        "label": "Sixth cranial nerve hypoplasia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0031335",
+        "label": "Abnormal cardiomyocyte mitochondrial morphology"
+      }
+    }
+  ]
+}

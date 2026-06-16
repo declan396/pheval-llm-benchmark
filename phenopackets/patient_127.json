@@ -1,0 +1,128 @@
+{
+  "id": "patient_127",
+  "subject": {
+    "id": "patient_127"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0002816",
+        "label": "Genu recurvatum"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000895",
+        "label": "Lateral clavicle hook"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000347",
+        "label": "Micrognathia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000028",
+        "label": "Cryptorchidism"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003561",
+        "label": "Birth length less than 3rd percentile"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000369",
+        "label": "Low-set ears"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000179",
+        "label": "Thick lower lip vermilion"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008551",
+        "label": "Microtia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000327",
+        "label": "Hypoplasia of the maxilla"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0032966",
+        "label": "Centrilobular emphysema"
+      },
+      "onset": {
+        "ontologyClass": {
+          "id": "HP:0003577",
+          "label": "Congenital onset"
+        }
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003799",
+        "label": "Marked delay in bone age"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011458",
+        "label": "Abdominal symptom"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0006443",
+        "label": "Patellar aplasia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008846",
+        "label": "Severe intrauterine growth retardation"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011314",
+        "label": "Abnormal long bone morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003276",
+        "label": "Pelvic bone exostoses"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000571",
+        "label": "Hypometric saccades"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:5201015",
+        "label": "Craniofacial cleft"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0034742",
+        "label": "Elevated urinary formiminoglutamic acid level"
+      }
+    }
+  ]
+}

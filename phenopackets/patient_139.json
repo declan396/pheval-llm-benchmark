@@ -1,0 +1,20 @@
+{
+  "id": "patient_139",
+  "subject": {
+    "id": "patient_139"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0002882",
+        "label": "Sudden episodic apnea"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011922",
+        "label": "Abnormal activity of mitochondrial respiratory chain"
+      }
+    }
+  ]
+}

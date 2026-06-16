@@ -1,0 +1,14 @@
+{
+  "id": "patient_027",
+  "subject": {
+    "id": "patient_027"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0200024",
+        "label": "Premature chromatid separation"
+      }
+    }
+  ]
+}

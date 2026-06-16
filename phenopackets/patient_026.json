@@ -1,0 +1,128 @@
+{
+  "id": "patient_026",
+  "subject": {
+    "id": "patient_026"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0000518",
+        "label": "Cataract"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001596",
+        "label": "Alopecia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011138",
+        "label": "Abnormal skin adnexa morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000206",
+        "label": "Glossitis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011458",
+        "label": "Abdominal symptom"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0033074",
+        "label": "Steroid-responsive anemia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012198",
+        "label": "Juvenile colonic polyposis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002039",
+        "label": "Anorexia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0007603",
+        "label": "Freckles in sun-exposed areas"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002243",
+        "label": "Protein-losing enteropathy"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000217",
+        "label": "Xerostomia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002024",
+        "label": "Malabsorption"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010927",
+        "label": "Abnormal blood inorganic cation concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002574",
+        "label": "Episodic abdominal pain"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0100759",
+        "label": "Clubbing of fingers"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010929",
+        "label": "Abnormal blood cation concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011138",
+        "label": "Abnormal skin adnexa morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0031682",
+        "label": "Type V atherosclerotic lesion"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011526",
+        "label": "Abnormality of lens shape"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000941",
+        "label": "Short diaphyses"
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "patient_009",
+  "subject": {
+    "id": "patient_009"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0001250",
+        "label": "Seizure"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010612",
+        "label": "Plantar pits"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011121",
+        "label": "Abnormal skin morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008410",
+        "label": "Subungual hyperkeratotic fragments"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000953",
+        "label": "Hyperpigmentation of the skin"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0200016",
+        "label": "Acrokeratosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0100792",
+        "label": "Acantholysis"
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "patient_087",
+  "subject": {
+    "id": "patient_087"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0000100",
+        "label": "Nephrotic syndrome"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0030162",
+        "label": "Glomerulomegaly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:6000428",
+        "label": "Glomerular fibronectin deposits"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000083",
+        "label": "Renal insufficiency"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0030949",
+        "label": "Glomerular deposits"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0007156",
+        "label": "Asymmetric limb muscle stiffness"
+      }
+    }
+  ]
+}

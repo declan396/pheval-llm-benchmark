@@ -1,0 +1,20 @@
+{
+  "id": "patient_054",
+  "subject": {
+    "id": "patient_054"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0003324",
+        "label": "Generalized muscle weakness"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001337",
+        "label": "Tremor"
+      }
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "id": "patient_172",
+  "subject": {
+    "id": "patient_172"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0009879",
+        "label": "Simplified gyral pattern"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000369",
+        "label": "Low-set ears"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000718",
+        "label": "Aggressive behavior"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001249",
+        "label": "Intellectual disability"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0007371",
+        "label": "Corpus callosum atrophy"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000448",
+        "label": "Prominent nose"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000252",
+        "label": "Microcephaly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010804",
+        "label": "Tented upper lip vermilion"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000750",
+        "label": "Delayed speech and language development"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000219",
+        "label": "Thin upper lip vermilion"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000218",
+        "label": "High palate"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0006956",
+        "label": "Lateral ventricle dilatation"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0025335",
+        "label": "Delayed ability to stand"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0025336",
+        "label": "Delayed ability to sit"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002360",
+        "label": "Sleep disturbance"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001344",
+        "label": "Absent speech"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000032",
+        "label": "Abnormal male external genitalia morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002506",
+        "label": "Diffuse cerebral atrophy"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000753",
+        "label": "Autism with high cognitive abilities"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0032608",
+        "label": "Thyroidization-type tubular atrophy"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0410239",
+        "label": "Positive urine norcotinine test"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0030130",
+        "label": "Impaired von Willebrand factor collagen binding activity"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0034227",
+        "label": "Aortic isthmus hypoplasia"
+      }
+    }
+  ]
+}
