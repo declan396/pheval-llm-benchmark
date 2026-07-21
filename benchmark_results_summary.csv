@@ -1,6 +1,0 @@
-approach,model,top1,top3,top5,mrr,n
-Exomiser only,-,58.4,67.1,69.1,0.645,149
-Claude phenotype-only,Sonnet,43.6,82.1,100.0,0.659,39
-Claude + Exomiser mixed,Sonnet/Haiku,53.6,89.3,100.0,0.708,28
-Claude + Exomiser clean,Sonnet,53.8,84.6,100.0,0.706,26
-Claude + Exomiser clean,Haiku,35.7,78.6,100.0,0.562,14
