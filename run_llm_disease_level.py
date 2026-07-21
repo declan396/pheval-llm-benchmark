@@ -1,138 +1,159 @@
-import anthropic
-import json
+"""
+run_llm_disease_level.py
+========================
+Disease-level LLM benchmarking using Claude Haiku.
+
+Asks Claude to return OMIM disease IDs from patient HPO terms.
+Results benchmarked with PhEval generate_disease_result.
+
+Output: llm_results_disease_level/patient_001.json etc.
+
+Usage:
+    python run_llm_disease_level.py
+
+Environment:
+    ANTHROPIC_API_KEY
+"""
+
 import os
+import json
 import time
 from pathlib import Path
+import anthropic
 
-# ── Configuration ─────────────────────────────────────────────────────────────
-PHENOPACKETS_DIR = Path("synthetic_patients")
-RESULTS_DIR      = Path("llm_results_disease_level_omim")
-MODEL            = "claude-sonnet-4-6"
-# ──────────────────────────────────────────────────────────────────────────────
+# ── Configuration ──────────────────────────────────────────────────────────
+ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
+MODEL             = "claude-sonnet-4-6"
+MAX_TOKENS        = 800
+RESULTS_DIR       = Path("llm_results_disease_level_sonnet")
+PHENOPACKET_DIR   = Path("phenopackets")
+NUM_DISEASES      = 5
+SLEEP_BETWEEN     = 1.0
 
 RESULTS_DIR.mkdir(exist_ok=True)
-client = anthropic.Anthropic()
+client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
 
+SYSTEM_PROMPT = """You are a clinical genetics expert specialising in rare disease diagnosis.
 
-def extract_phenotypes(phenopacket: dict) -> list[str]:
-    features = phenopacket.get("phenotypicFeatures", [])
-    return [f["type"]["label"] for f in features if "type" in f]
+Given a patient's HPO phenotype terms, return the most likely rare disease diagnoses as OMIM IDs.
 
-
-def build_prompt(patient_id: str, phenotypes: list[str]) -> str:
-    phenotype_list = "\n".join(f"- {p}" for p in phenotypes)
-    return f"""You are an expert clinical geneticist specialising in rare genetic diseases.
-
-A patient presents with the following clinical features:
-{phenotype_list}
-
-Based on these phenotypes, provide your differential diagnosis as a ranked list of OMIM diseases.
-
-You MUST respond with ONLY a valid JSON object in exactly this format, no other text:
-{{
-  "patient_id": "{patient_id}",
+You MUST respond with valid JSON only — no explanation, no markdown, no other text:
+{
   "top_diseases": [
-    {{"rank": 1, "disease_id": "OMIM:123456", "disease_label": "Disease name", "score": 0.95}},
-    {{"rank": 2, "disease_id": "OMIM:234567", "disease_label": "Disease name", "score": 0.85}},
-    {{"rank": 3, "disease_id": "OMIM:345678", "disease_label": "Disease name", "score": 0.75}},
-    {{"rank": 4, "disease_id": "OMIM:456789", "disease_label": "Disease name", "score": 0.65}},
-    {{"rank": 5, "disease_id": "OMIM:567890", "disease_label": "Disease name", "score": 0.55}},
-    {{"rank": 6, "disease_id": "OMIM:678901", "disease_label": "Disease name", "score": 0.45}},
-    {{"rank": 7, "disease_id": "OMIM:789012", "disease_label": "Disease name", "score": 0.40}},
-    {{"rank": 8, "disease_id": "OMIM:890123", "disease_label": "Disease name", "score": 0.35}},
-    {{"rank": 9, "disease_id": "OMIM:901234", "disease_label": "Disease name", "score": 0.30}},
-    {{"rank": 10, "disease_id": "OMIM:012345", "disease_label": "Disease name", "score": 0.25}}
-  ],
-  "confidence": "high/medium/low",
-  "reasoning": "Brief explanation of your reasoning"
-}}
-
-Return exactly 10 candidate OMIM diseases ranked by likelihood. Use real OMIM identifiers in the format OMIM:XXXXXX only."""
+    {"rank": 1, "disease_id": "OMIM:123456", "disease_name": "Disease Name", "score": 0.95},
+    {"rank": 2, "disease_id": "OMIM:234567", "disease_name": "Disease Name", "score": 0.80}
+  ]
+}"""
 
 
-def run_patient(patient_id: str, phenotypes: list[str]) -> dict | None:
-    prompt = build_prompt(patient_id, phenotypes)
-    try:
-        message = client.messages.create(
-            model=MODEL,
-            max_tokens=1000,
-            messages=[{"role": "user", "content": prompt}]
-        )
-        raw = message.content[0].text.strip()
-
-        if "```json" in raw:
-            raw = raw.split("```json")[1].split("```")[0].strip()
-        elif "```" in raw:
-            raw = raw.split("```")[1].split("```")[0].strip()
-
-        result = json.loads(raw)
-        return result
-
-    except json.JSONDecodeError as e:
-        print(f"  ⚠ JSON parse error for {patient_id}: {e}")
-        return {"patient_id": patient_id, "error": "json_parse_error", "raw": raw}
-    except Exception as e:
-        print(f"  ⚠ API error for {patient_id}: {e}")
-        return {"patient_id": patient_id, "error": str(e)}
-
-
-def already_processed(patient_id: str) -> bool:
+def already_done(patient_id: str) -> bool:
     f = RESULTS_DIR / f"{patient_id}.json"
     if not f.exists():
         return False
-    data = json.load(open(f))
-    return "error" not in data
+    data = json.loads(f.read_text())
+    return "error" not in data and bool(data.get("top_diseases"))
+
+
+def load_hpo_terms(path: Path) -> list[str]:
+    data = json.loads(path.read_text())
+    terms = []
+    for feat in data.get("phenotypicFeatures", []):
+        t = feat.get("type", {})
+        hpo_id = t.get("id", "")
+        label  = t.get("label", "")
+        if hpo_id and not feat.get("excluded", False):
+            terms.append(f"{hpo_id} ({label})" if label else hpo_id)
+    return terms
+
+
+def query_llm(hpo_terms: list[str]) -> dict:
+    hpo_str = "\n".join(f"- {t}" for t in hpo_terms)
+    user_msg = f"""A patient presents with the following HPO phenotype terms:
+
+{hpo_str}
+
+Return the top {NUM_DISEASES} most likely OMIM disease diagnoses as JSON."""
+
+    response = client.messages.create(
+        model      = MODEL,
+        max_tokens = MAX_TOKENS,
+        system     = SYSTEM_PROMPT,
+        messages   = [{"role": "user", "content": user_msg}],
+    )
+
+    text = response.content[0].text.strip()
+    if "```" in text:
+        parts = text.split("```")
+        for part in parts:
+            part = part.strip()
+            if part.startswith("json"):
+                part = part[4:].strip()
+            try:
+                return json.loads(part)
+            except json.JSONDecodeError:
+                continue
+    return json.loads(text)
 
 
 def main():
-    phenopacket_files = sorted(PHENOPACKETS_DIR.glob("patient_*.json"))
-    total = len(phenopacket_files)
-    print(f"Found {total} phenopackets\n")
+    if not ANTHROPIC_API_KEY:
+        print("ERROR: Set ANTHROPIC_API_KEY environment variable")
+        return
 
-    success = 0
-    skipped = 0
-    failed  = 0
+    phenopackets = sorted(PHENOPACKET_DIR.glob("patient_*.json"))
+    total = len(phenopackets)
+    print(f"Disease-level benchmarking — {total} patients")
+    print(f"Model: {MODEL}  |  Top-{NUM_DISEASES} diseases per patient")
+    print(f"Output: {RESULTS_DIR}/\n")
 
-    for i, filepath in enumerate(phenopacket_files, 1):
-        patient_id = filepath.stem
+    success = skipped = failed = 0
 
-        if already_processed(patient_id):
-            print(f"[{i}/{total}] Skipping {patient_id} (already done)")
+    for i, ppath in enumerate(phenopackets, 1):
+        patient_id = ppath.stem
+
+        if already_done(patient_id):
+            print(f"[{i:03d}/{total}] skip  {patient_id}")
             skipped += 1
             continue
 
-        print(f"[{i}/{total}] Processing {patient_id}...", end=" ")
+        print(f"[{i:03d}/{total}] run   {patient_id}...", end=" ", flush=True)
 
-        with open(filepath) as f:
-            phenopacket = json.load(f)
+        try:
+            hpo_terms = load_hpo_terms(ppath)
+            if not hpo_terms:
+                print("warning no HPO terms")
+                skipped += 1
+                continue
 
-        phenotypes = extract_phenotypes(phenopacket)
-        if not phenotypes:
-            print("⚠ No phenotypes, skipping")
-            failed += 1
-            continue
+            result = query_llm(hpo_terms)
+            result["patient_id"] = patient_id
+            result["hpo_terms"]  = hpo_terms
 
-        result = run_patient(patient_id, phenotypes)
+            (RESULTS_DIR / f"{patient_id}.json").write_text(json.dumps(result, indent=2))
 
-        if result:
-            out_path = RESULTS_DIR / f"{patient_id}.json"
-            with open(out_path, "w") as f:
-                json.dump(result, f, indent=2)
+            top1 = result["top_diseases"][0]["disease_id"] if result.get("top_diseases") else "none"
+            print(f"ok  top: {top1}")
+            success += 1
 
-            if "error" in result:
-                print(f"✗ Error saved")
-                failed += 1
-            else:
-                print(f"✓ Done ({len(result.get('top_diseases', []))} diseases)")
-                success += 1
-        else:
+        except anthropic.RateLimitError:
+            print("rate limited waiting 60s")
+            time.sleep(60)
             failed += 1
 
-        time.sleep(0.5)
+        except Exception as e:
+            err = str(e)[:80]
+            print(f"error  {err}")
+            (RESULTS_DIR / f"{patient_id}.json").write_text(
+                json.dumps({"error": err, "patient_id": patient_id})
+            )
+            failed += 1
 
-    print(f"\n{'='*50}")
-    print(f"Complete: {success} success, {skipped} skipped, {failed} failed")
-    print(f"Results saved to: {RESULTS_DIR}/")
+        if i < total:
+            time.sleep(SLEEP_BETWEEN)
+
+    print(f"\nDone.  success {success}  skipped {skipped}  failed {failed}")
+    print(f"Results: {RESULTS_DIR}/")
+    print(f"\nNext: scp results to Apocrita then run convert_disease_to_pheval.py")
 
 
 if __name__ == "__main__":

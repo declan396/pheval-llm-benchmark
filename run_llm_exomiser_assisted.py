@@ -7,7 +7,7 @@ from pathlib import Path
 # ── Configuration ─────────────────────────────────────────────────────────────
 PHENOPACKETS_DIR  = Path("phenopackets")
 EXOMISER_DIR      = Path("exomiser_results")
-RESULTS_DIR = Path("llm_results_exomiser_assisted_sonnet_10genes")
+RESULTS_DIR =  Path("llm_results_exomiser_no_anchor")
 MODEL = "claude-sonnet-4-6"
 
 TOP_N_EXOMISER    = 10  # number of Exomiser genes to feed into prompt
@@ -50,11 +50,10 @@ def build_prompt(patient_id: str, phenotypes: list[str], exomiser_genes: list[di
 A patient presents with the following clinical features:
 {phenotype_list}
 
-Exomiser has prioritised the following candidate genes based on phenotype similarity:
+Exomiser has identified these candidate genes using phenotype-similarity scoring:
 {gene_list}
 
-Using both the patient's phenotypes and the Exomiser candidate genes, provide your diagnostic interpretation.
-
+These are provided as context only. Use your own clinical reasoning — you are not required to follow the Exomiser ranking. Reorder, add, or remove genes based on what the phenotype evidence supports.
 You MUST respond with ONLY a valid JSON object in exactly this format, no other text:
 {{
   "patient_id": "{patient_id}",
@@ -75,7 +74,7 @@ You MUST respond with ONLY a valid JSON object in exactly this format, no other 
   "reasoning": "Brief explanation considering both phenotypes and Exomiser candidates"
 }}
 
-Return exactly 10 candidate genes ranked by likelihood. Prioritise genes from the Exomiser list where they fit the phenotype, but you may include genes not in the Exomiser list if strongly indicated. Use real HGNC gene symbols only."""
+Return exactly 10 candidate genes ranked by your own clinical reasoning. The Exomiser list is context only — prioritise what the phenotype evidence supports, not the Exomiser order. Use real HGNC gene symbols only."""
 
 
 def run_patient(patient_id: str, phenotypes: list[str], exomiser_genes: list[dict]) -> dict | None:

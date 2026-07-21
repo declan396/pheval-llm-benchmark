@@ -7,7 +7,7 @@ from pathlib import Path
 # ── Configuration ─────────────────────────────────────────────────────────────
 PHENOPACKETS_DIR = Path("phenopackets")
 RESULTS_DIR = Path("llm_results_phenotype_only_10genes")
-MODEL = "claude-opus-4-6"  # or claude-sonnet-4-6 for cheaper/faster
+MODEL = "claude-haiku-4-5-20251001"  # or claude-sonnet-4-6 for cheaper/faster
 # ──────────────────────────────────────────────────────────────────────────────
 
 RESULTS_DIR.mkdir(exist_ok=True)
