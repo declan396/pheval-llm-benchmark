@@ -1,0 +1,26 @@
+benchmark_name: llm_disease_correct
+runs:
+  - run_identifier: claude_disease_level
+    results_dir: /data/home/bt251044/p2p-work/pheval_disease_results_correct
+    phenopacket_dir: /data/home/bt251044/p2p-work/synthetic_patients
+    gene_analysis: false
+    variant_analysis: false
+    disease_analysis: true
+    threshold:
+    score_order: descending
+plot_customisation:
+  gene_plots:
+    plot_type: bar_cumulative
+    rank_plot_title:
+    roc_curve_title:
+    precision_recall_title:
+  disease_plots:
+    plot_type: bar_cumulative
+    rank_plot_title:
+    roc_curve_title:
+    precision_recall_title:
+  variant_plots:
+    plot_type: bar_cumulative
+    rank_plot_title:
+    roc_curve_title:
+    precision_recall_title:

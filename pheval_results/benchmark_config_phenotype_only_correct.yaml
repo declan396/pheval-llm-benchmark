@@ -1,0 +1,26 @@
+benchmark_name: llm_phenotype_only_correct
+runs:
+  - run_identifier: claude_phenotype_only_correct
+    results_dir: /data/home/bt251044/p2p-work/pheval_gene_results_phenotype_only_correct
+    phenopacket_dir: /data/home/bt251044/p2p-work/synthetic_patients_with_genes
+    gene_analysis: true
+    variant_analysis: false
+    disease_analysis: false
+    threshold:
+    score_order: descending
+plot_customisation:
+  gene_plots:
+    plot_type: bar_cumulative
+    rank_plot_title:
+    roc_curve_title:
+    precision_recall_title:
+  disease_plots:
+    plot_type: bar_cumulative
+    rank_plot_title:
+    roc_curve_title:
+    precision_recall_title:
+  variant_plots:
+    plot_type: bar_cumulative
+    rank_plot_title:
+    roc_curve_title:
+    precision_recall_title:

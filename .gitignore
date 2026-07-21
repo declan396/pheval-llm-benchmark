@@ -1,11 +1,20 @@
-.env
-.venv/
+﻿# ChromaDB — large binary, rebuilt locally
+chroma_db_v2/
+
+# DuckDB files — rebuilt by PhEval
+pheval_results/*.duckdb
+
+# PhEval parquet output — large, reproducible
+pheval_results/*/pheval_gene_results/
+pheval_results/*/pheval_disease_results/
+
+# Python cache
 __pycache__/
 *.pyc
-*.key
-config.py
+.venv/
+
+# Large data files
+hpo_resources/
 exomiser_results/
-llm_results*/
-pheval_gene_results*/
-*.parquet
-*.duckdb
+phenopackets/
+llm_results_*/
