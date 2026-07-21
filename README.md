@@ -1,30 +1,22 @@
 # PhEval LLM Benchmark
 
-MSc Bioinformatics — B2038 — Queen Mary University of London
-**Declan Courtney** | Supervisors: Damian Smedley, Yasemin Bridges, Jules Jacobsen (LBNL)
+**MSc Bioinformatics — B2038 — Queen Mary University of London**  
+Declan Courtney | Supervisors: Damian Smedley, Yasemin Bridges, Jules Jacobsen (LBNL)
 
-Benchmarking large language model approaches for rare disease gene prioritisation using the [PhEval](https://github.com/monarch-initiative/pheval) evaluation framework.
-
----
-
-## Project Overview
-
-This project evaluates whether LLM-based approaches can complement or improve upon [Exomiser](https://github.com/exomiser/Exomiser) — the gold-standard rare disease gene prioritisation tool used by the NHS Genomic Medicine Service — for phenotype-driven gene prioritisation.
-
-All experiments use **phenotype-only mode** (no genomic variant data), benchmarked against 200 synthetic phenopackets covering 200 distinct Mendelian diseases.
+Systematic benchmarking of large language model approaches for rare disease gene and disease prioritisation using the [PhEval](https://github.com/monarch-initiative/pheval) evaluation framework.
 
 ---
 
 ## Results Summary
 
-All approaches benchmarked using PhEval `generate_gene_result` against gene-annotated synthetic phenopackets.
-
 ### Gene-level benchmarking (n=158 patients with known Mendelian gene)
 
 | Approach | Model | Top-1 | Top-3 | Top-5 | MRR |
 |---|---|---|---|---|---|
-| Exomiser phenotype-only | — | 58.4% | 67.1% | 69.1% | 0.645 |
+| Exomiser phenotype-only (baseline) | — | 58.4% | 67.1% | 69.1% | 0.645 |
 | **Claude RAG v2** | Sonnet 4.6 | **35.8%** | **46.7%** | **50.3%** | **0.423** |
+| Claude RAG + Agentic | Sonnet 4.6 | 35.2% | 43.0% | 49.1% | 0.415 |
+| Claude RAG + Exomiser scores | Sonnet 4.6 | 31.5% | 40.0% | 43.6% | 0.363 |
 | Claude phenotype-only (10-gene) | Haiku 4.5 | 14.5% | 23.0% | 30.3% | 0.204 |
 | Claude phenotype-only (5-gene) | Sonnet 4.6 | 12.7% | 23.0% | 29.1% | 0.189 |
 | Claude + Exomiser assisted (5-gene) | Sonnet 4.6 | 9.7% | 15.2% | 17.0% | 0.124 |
@@ -37,16 +29,37 @@ All approaches benchmarked using PhEval `generate_gene_result` against gene-anno
 
 | Approach | Model | Top-1 | Top-3 | Top-5 | MRR |
 |---|---|---|---|---|---|
+| **Claude RAG disease-level** | Sonnet 4.6 | **32.5%** | **39.5%** | **45.5%** | **0.380** |
 | Claude disease-level | Sonnet 4.6 | 9.0% | 12.5% | 14.5% | 0.110 |
 | Claude disease-level | Haiku 4.5 | 2.5% | 5.5% | 7.0% | 0.039 |
 
-### Comparison with MALCO paper (Reese, Chimirri, Bridges et al., Eur J Hum Genet 2026)
+### Comparison with MALCO (Reese, Chimirri, Bridges et al., Eur J Hum Genet 2026)
 
 MALCO benchmarked 7 LLMs vs Exomiser on 5,213 real clinical cases (disease-level):
-- Best LLM (o1-preview): 23.6% top-1
-- Exomiser: 35.5% top-1
 
-Our RAG v2 approach (35.8% top-1 gene-level) exceeds the MALCO best LLM result, though direct comparison is limited by different task levels (gene vs disease) and cohort types (synthetic vs real).
+| | Top-1 |
+|---|---|
+| MALCO best LLM (o1-preview) | 23.6% |
+| **Claude RAG disease-level (this work)** | **32.5%** |
+| MALCO Exomiser | 35.5% |
+
+**RAG disease-level exceeds the MALCO best LLM by 8.9 percentage points.**
+
+---
+
+## Key Findings
+
+1. **RAG dramatically outperforms all other LLM approaches** — 35.8% top-1 gene-level vs 12.7% for phenotype-only. HPOA retrieval at query time gives Claude the structured disease knowledge it needs.
+
+2. **HPO labels vs IDs is critical** — using HPO term labels ("Intellectual disability") vs IDs ("HP:0001249") for embedding accounts for a 1.2% → 35.8% improvement. The sentence transformer model requires natural language, not ontology codes.
+
+3. **Anchoring effect is consistent** — giving Claude Exomiser's candidates consistently reduces performance vs RAG alone (31.5% vs 35.8%). When the correct gene is absent from Exomiser's top-10, Claude cannot recover it.
+
+4. **Retrieval dominates over reasoning depth** — RAG + Agentic (35.2%) marginally underperforms pure RAG (35.8%), suggesting retrieval quality matters more than iterative tool-call reasoning when the knowledge base is already well-matched.
+
+5. **Model quality matters** — Sonnet disease-level (9.0%) is 3.6× better than Haiku (2.5%). Chain-of-thought with Haiku (7.3%) underperforms standard Sonnet prompting (12.7%).
+
+6. **Exomiser still leads at gene-level** — 58.4% vs RAG 35.8%. Systematic HPO ontology scoring over curated disease-gene knowledge remains superior.
 
 ---
 
@@ -54,31 +67,40 @@ Our RAG v2 approach (35.8% top-1 gene-level) exceeds the MALCO best LLM result, 
 
 ```
 pheval-llm-benchmark/
-├── phenopackets/                    # Redacted synthetic phenopackets (LLM input)
-├── hpo_resources/
-│   ├── phenotype.hpoa               # HPO Annotation database v2026-02-16
-│   └── genes_to_disease.txt         # Gene-disease associations
-├── exomiser_results/                # Exomiser parquet output files
+├── README.md
+├── .gitignore
+├── reorganise_repo.ps1
 │
-├── run_llm_batch.py                 # Phenotype-only (Anthropic API)
-├── run_llm_batch_gemini.py          # Phenotype-only (Gemini free tier)
-├── run_llm_exomiser_assisted.py     # Exomiser-assisted (anchored)
-├── run_llm_cot.py                   # Chain-of-thought prompting
-├── run_llm_disease_level.py         # Disease-level (OMIM IDs)
-├── run_llm_rag.py                   # RAG pipeline (HPOA vector store)
+├── pipelines/                         # LLM pipeline scripts
+│   ├── run_phenotype_only.py          # Baseline: HPO terms only
+│   ├── run_phenotype_only_gemini.py   # Gemini variant
+│   ├── run_exomiser_assisted.py       # Exomiser top genes + Claude re-ranking
+│   ├── run_cot.py                     # Chain-of-thought prompting
+│   ├── run_disease_level.py           # Disease-level (OMIM IDs)
+│   ├── run_rag.py                     # RAG pipeline (HPOA vector store)
+│   ├── run_rag_disease.py             # Disease-level RAG
+│   ├── run_rag_exomiser.py            # RAG + Exomiser phenotype scores
+│   └── rag_agentic/                   # Agentic pipeline
+│       ├── agent.py                   # Claude agentic loop
+│       ├── monarch_client.py          # Monarch/PubMed/ClinVar tool functions
+│       ├── rag_retriever.py           # ChromaDB index and retrieval
+│       ├── run_pipeline.py            # Main runner
+│       ├── convert_to_pheval.py       # PhEval converter
+│       └── README.md
 │
-├── convert_llm_to_pheval.py         # Gene-level PhEval converter
-├── convert_disease_to_pheval.py     # Disease-level PhEval converter
+├── converters/                        # PhEval post-processing
+│   ├── convert_gene_to_pheval.py
+│   └── convert_disease_to_pheval.py
 │
-├── agentic/                         # Agentic pipeline prototype
-│   ├── omim_client.py               # OMIM API wrapper
-│   ├── phenopacket_loader.py        # Load HPO terms from phenopacket
-│   ├── exomiser_loader.py           # Load Exomiser parquet results
-│   ├── agent.py                     # Claude agentic loop (tool use)
-│   ├── run_pipeline.py              # Main agentic pipeline runner
-│   └── convert_to_pheval.py        # PhEval converter for agentic results
+├── pheval_results/
+│   └── configs/                       # PhEval benchmark YAML configs
 │
-└── README.md
+├── figures/                           # PhEval output plots (SVG)
+│
+└── docs/                              # Notes and logs
+    ├── experiment_log.md
+    ├── method_correction_log.md
+    └── methodology_notes.md
 ```
 
 ---
@@ -87,109 +109,85 @@ pheval-llm-benchmark/
 
 **200 synthetic phenopackets** generated from HPO Annotation (HPOA v2026-02-16) using [phenotype2phenopacket](https://github.com/monarch-initiative/phenotype2phenopacket):
 - 200 distinct Mendelian diseases
-- 158/200 have a known Mendelian gene (p2p add-genes)
-- 42/200 excluded from gene-level benchmarking (no known gene)
-- Phenopackets redacted before LLM input (disease ID, gene, variants stripped)
+- 158/200 have a known Mendelian gene (`p2p add-genes`)
+- 42/200 excluded from gene-level benchmarking (no known Mendelian gene)
+- Phenopackets redacted before LLM input — disease ID, gene and variants stripped
 
-**Exomiser v15.0.0**, data release 2512, hg19, phenotype-only mode.
+**Exomiser v15.0.0**, data release 2512, hg19, phenotype-only mode, run on QMUL Apocrita HPC.
 
----
-
-## Methods
-
-### PhEval benchmarking (corrected methodology)
-
-All results benchmarked using `pheval generate_gene_result` with gene-annotated phenopackets (`synthetic_patients_with_genes/`). PhEval determines true positives from the `interpretations` field internally — no manual flagging.
-
-Stem mapping via `synthetic_patients_lookup.csv` maps `patient_001` → `OMIM_100700_patient_1`.
-
-### RAG pipeline (run_llm_rag.py)
-
-1. Parse HPOA → disease-HPO label mapping
-2. Embed disease profiles using `all-MiniLM-L6-v2` sentence transformer
-3. Store in ChromaDB (persistent local vector store)
-4. For each patient: embed HPO labels → retrieve top-10 similar diseases
-5. Inject retrieved diseases + gene associations into Claude prompt
-6. Claude returns ranked gene list as JSON
-
-**Critical finding:** Using HPO term **labels** (e.g. "Intellectual disability") rather than **IDs** (e.g. "HP:0001249") for embedding is essential — IDs are opaque strings that sentence transformers cannot match semantically. RAG v1 used IDs (1.2% top-1); RAG v2 used labels (35.8% top-1).
-
-### Agentic pipeline (agentic/)
-
-Prototype Claude agent with OMIM tool use. Claude iteratively calls OMIM to look up gene-disease associations before returning a final ranked list (up to 3 rounds). Awaiting OMIM API access for full PhEval evaluation.
+> Note: large data files (phenopackets, Exomiser results, LLM outputs, ChromaDB index) are not tracked in this repo — stored on Apocrita HPC and locally. See `.gitignore`.
 
 ---
 
 ## Setup
 
-### Requirements
-
 ```bash
-pip install anthropic google-generativeai chromadb sentence-transformers polars pyarrow pheval
+pip install anthropic chromadb sentence-transformers polars pyarrow pheval requests
+export ANTHROPIC_API_KEY="your-key"
 ```
 
-### Environment variables
+---
+
+## Running Experiments
 
 ```bash
-export ANTHROPIC_API_KEY="your-key"    # Required for Claude runs
-export OMIM_API_KEY="your-key"         # Required for agentic pipeline
+# Phenotype-only baseline
+python pipelines/run_phenotype_only.py
+
+# RAG pipeline (builds ChromaDB index from HPOA on first run ~5 min)
+python pipelines/run_rag.py
+
+# Disease-level RAG
+python pipelines/run_rag_disease.py
+
+# RAG + Exomiser phenotype scores
+python pipelines/run_rag_exomiser.py
+
+# Exomiser-assisted re-ranking
+python pipelines/run_exomiser_assisted.py
+
+# Agentic pipeline (Monarch + PubMed + ClinVar tools)
+python pipelines/rag_agentic/run_pipeline.py --limit 5 --verbose
+python pipelines/rag_agentic/run_pipeline.py
 ```
 
-### Running experiments
-
-```bash
-# Phenotype-only (5-gene, Sonnet)
-python run_llm_batch.py
-
-# RAG pipeline (builds ChromaDB index on first run)
-python run_llm_rag.py
-
-# Exomiser-assisted (no anchoring)
-python run_llm_exomiser_assisted.py
-
-# Disease-level
-python run_llm_disease_level.py
-
-# Chain-of-thought
-python run_llm_cot.py
-```
-
-### Converting results for PhEval
+## Converting and Benchmarking
 
 ```bash
 # Gene-level
-python convert_llm_to_pheval.py
+python converters/convert_gene_to_pheval.py
 
 # Disease-level
-python convert_disease_to_pheval.py
+python converters/convert_disease_to_pheval.py
 
-# Then benchmark
-pheval-utils benchmark --run-yaml benchmark_config.yaml
+# Benchmark (on Apocrita with PhEval installed)
+pheval-utils benchmark --run-yaml pheval_results/configs/benchmark_config_rag_v2.yaml
 ```
 
 ---
 
-## Key Findings
+## RAG Pipeline Details
 
-1. **RAG dramatically outperforms all other LLM approaches** — 35.8% top-1 vs 12.7% for phenotype-only. Retrieval of phenotypically similar diseases from HPOA at query time gives Claude the structured knowledge it needs.
+- **Vector store:** ChromaDB (persistent), 12,996 diseases from HPOA
+- **Embedding model:** `all-MiniLM-L6-v2` (sentence-transformers)
+- **Critical:** embed HPO term **labels** not IDs — IDs are opaque strings that transformers cannot match semantically
+- **Gene lookup:** `genes_to_disease.txt` (col 1=gene_symbol, col 3=disease_id) — 10,992 associations
 
-2. **HPO label quality is critical for RAG** — using HPO IDs as embedding inputs gives 1.2% top-1; switching to labels gives 35.8%. The sentence transformer model requires natural language, not ontology codes.
+## Agentic Pipeline Tools
 
-3. **Exomiser-assisted approaches underperform phenotype-only** — giving Claude Exomiser's top-10 candidates causes anchoring: Claude stays too close to the Exomiser list. Removing the anchoring instruction made performance worse, not better — suggesting the issue is the 5-gene output constraint, not prompt wording.
-
-4. **Model quality matters more than prompting strategy** — Sonnet disease-level (9.0%) is 3.6× better than Haiku (2.5%). Chain-of-thought with Haiku (7.3%) underperforms standard Sonnet prompting (12.7%).
-
-5. **Exomiser still leads** — 58.4% top-1 vs RAG's 35.8%. Exomiser's systematic HPO ontology scoring over curated disease-gene knowledge remains superior for gene-level prediction from phenotype alone.
+Claude has access to three external APIs (no key required):
+- **Monarch Initiative** — gene-disease associations, phenotype matching
+- **PubMed** — literature search via NCBI eUtils
+- **ClinVar** — pathogenic variant counts via NCBI eUtils
 
 ---
 
-## Next Steps
+## Infrastructure
 
-- **RAG + Monarch agentic pipeline** — combine HPOA retrieval with iterative Monarch Initiative API tool calls (no API key required)
-- **Agentic pipeline evaluation** — full PhEval benchmark once OMIM API key arrives
-- **Variant evidence** — add WGS/WES variant data (Exomiser achieves 82.6% top-1 with variants vs 58.4% phenotype-only)
-- **Disease-level RAG** — apply RAG to disease-level prediction for direct MALCO comparison
-- **Fine-tuning** — train on phenopacket-store cases (longer term, needs GPU compute)
+- **HPC:** Apocrita (QMUL), user bt251044, `pheval-env` (Python 3.11)
+- **Local:** Windows, PyCharm
+- **Models:** Claude Sonnet 4.6 (main), Haiku 4.5 (CoT + disease-level)
+- **PhEval:** v0.7.13
 
 ---
 
