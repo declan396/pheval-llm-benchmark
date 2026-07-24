@@ -33,9 +33,9 @@ Systematic benchmarking of large language model approaches for rare disease gene
 | Claude disease-level | Sonnet 4.6 | 9.0% | 12.5% | 14.5% | 0.110 |
 | Claude disease-level | Haiku 4.5 | 2.5% | 5.5% | 7.0% | 0.039 |
 
-### Comparison with MALCO (Reese, Chimirri, Bridges et al., Eur J Hum Genet 2026)
+### Comparison with MALCO (Reese et al., Eur J Hum Genet 2026)
 
-MALCO benchmarked 7 LLMs vs Exomiser on 5,213 real clinical cases (disease-level):
+MALCO benchmarked 7 LLMs against Exomiser on 5,213 real clinical cases at disease level (Reese JT, Chimirri L, Bridges Y, et al., 2026). Code: [monarch-initiative/pheval.llm](https://github.com/monarch-initiative/pheval.llm).
 
 | | Top-1 |
 |---|---|
@@ -45,21 +45,23 @@ MALCO benchmarked 7 LLMs vs Exomiser on 5,213 real clinical cases (disease-level
 
 **RAG disease-level exceeds the MALCO best LLM by 8.9 percentage points.**
 
+> Note: direct comparison should be treated cautiously — this work used 200 synthetic patients generated from HPOA, while MALCO used 5,213 real clinical cases.
+
 ---
 
 ## Key Findings
 
-1. **RAG dramatically outperforms all other LLM approaches** — 35.8% top-1 gene-level vs 12.7% for phenotype-only. HPOA retrieval at query time gives Claude the structured disease knowledge it needs.
+1. **RAG with HPO labels is the best LLM approach** — 35.8% top-1 gene-level, 32.5% disease-level.
 
-2. **HPO labels vs IDs is critical** — using HPO term labels ("Intellectual disability") vs IDs ("HP:0001249") for embedding accounts for a 1.2% → 35.8% improvement. The sentence transformer model requires natural language, not ontology codes.
+2. **HPO labels vs IDs is critical** — embedding HPO term labels ("Intellectual disability") rather than IDs ("HP:0001249") accounts for a 1.2% → 35.8% improvement. The sentence transformer model requires natural language, not ontology codes.
 
-3. **Anchoring effect is consistent** — giving Claude Exomiser's candidates consistently reduces performance vs RAG alone (31.5% vs 35.8%). When the correct gene is absent from Exomiser's top-10, Claude cannot recover it.
+3. **Consistent anchoring effect** — every Exomiser-assisted approach underperforms RAG alone. Providing Exomiser's phenotype-only candidates draws Claude away from correct answers not in the Exomiser list.
 
-4. **Retrieval dominates over reasoning depth** — RAG + Agentic (35.2%) marginally underperforms pure RAG (35.8%), suggesting retrieval quality matters more than iterative tool-call reasoning when the knowledge base is already well-matched.
+4. **Retrieval quality dominates over reasoning depth** — RAG + Agentic (35.2%) marginally underperforms pure RAG (35.8%), suggesting iterative tool-call reasoning adds limited benefit when retrieval is already well-matched.
 
-5. **Model quality matters** — Sonnet disease-level (9.0%) is 3.6× better than Haiku (2.5%). Chain-of-thought with Haiku (7.3%) underperforms standard Sonnet prompting (12.7%).
+5. **Model quality matters** — Sonnet disease-level (9.0%) is 3.6× better than Haiku (2.5%). Chain-of-thought with Haiku underperforms standard Sonnet prompting.
 
-6. **Exomiser still leads at gene-level** — 58.4% vs RAG 35.8%. Systematic HPO ontology scoring over curated disease-gene knowledge remains superior.
+6. **Exomiser still leads at gene-level** — 58.4% vs RAG 35.8%. Systematic HPO ontology scoring over curated disease-gene knowledge remains superior for gene-level prediction from phenotype alone.
 
 ---
 
@@ -69,7 +71,6 @@ MALCO benchmarked 7 LLMs vs Exomiser on 5,213 real clinical cases (disease-level
 pheval-llm-benchmark/
 ├── README.md
 ├── .gitignore
-├── reorganise_repo.ps1
 │
 ├── pipelines/                         # LLM pipeline scripts
 │   ├── run_phenotype_only.py          # Baseline: HPO terms only
@@ -81,7 +82,7 @@ pheval-llm-benchmark/
 │   ├── run_rag_disease.py             # Disease-level RAG
 │   ├── run_rag_exomiser.py            # RAG + Exomiser phenotype scores
 │   └── rag_agentic/                   # Agentic pipeline
-│       ├── agent.py                   # Claude agentic loop
+│       ├── agent.py                   # Claude agentic loop (tool use)
 │       ├── monarch_client.py          # Monarch/PubMed/ClinVar tool functions
 │       ├── rag_retriever.py           # ChromaDB index and retrieval
 │       ├── run_pipeline.py            # Main runner
@@ -97,10 +98,7 @@ pheval-llm-benchmark/
 │
 ├── figures/                           # PhEval output plots (SVG)
 │
-└── docs/                              # Notes and logs
-    ├── experiment_log.md
-    ├── method_correction_log.md
-    └── methodology_notes.md
+└── docs/                              # Notes and experiment logs
 ```
 
 ---
@@ -115,7 +113,7 @@ pheval-llm-benchmark/
 
 **Exomiser v15.0.0**, data release 2512, hg19, phenotype-only mode, run on QMUL Apocrita HPC.
 
-> Note: large data files (phenopackets, Exomiser results, LLM outputs, ChromaDB index) are not tracked in this repo — stored on Apocrita HPC and locally. See `.gitignore`.
+> Large data files (phenopackets, Exomiser results, LLM outputs, ChromaDB index) are not tracked in this repo. See `.gitignore`.
 
 ---
 
@@ -134,7 +132,7 @@ export ANTHROPIC_API_KEY="your-key"
 # Phenotype-only baseline
 python pipelines/run_phenotype_only.py
 
-# RAG pipeline (builds ChromaDB index from HPOA on first run ~5 min)
+# RAG pipeline (builds ChromaDB index from HPOA on first run, ~5 min)
 python pipelines/run_rag.py
 
 # Disease-level RAG
@@ -175,10 +173,10 @@ pheval-utils benchmark --run-yaml pheval_results/configs/benchmark_config_rag_v2
 
 ## Agentic Pipeline Tools
 
-Claude has access to three external APIs (no key required):
-- **Monarch Initiative** — gene-disease associations, phenotype matching
-- **PubMed** — literature search via NCBI eUtils
-- **ClinVar** — pathogenic variant counts via NCBI eUtils
+Claude has access to three external APIs (no authentication required):
+- **Monarch Initiative** (`api-v3.monarchinitiative.org`) — gene-disease associations
+- **PubMed** (NCBI eUtils) — literature search
+- **ClinVar** (NCBI eUtils) — pathogenic variant counts
 
 ---
 
@@ -193,8 +191,15 @@ Claude has access to three external APIs (no key required):
 
 ## References
 
-- Reese JT, Chimirri L, Bridges Y, et al. Systematic benchmarking demonstrates LLMs have not reached the diagnostic accuracy of traditional rare-disease decision support tools. *Eur J Hum Genet.* 2026;34:498–504.
-- Bridges YS, et al. Towards a standard benchmark for variant and gene prioritisation algorithms: PhEval. *BMC Bioinformatics.* 2025;26:87.
-- Tu T, Saab K, et al. Genetic Diagnosis with LLMs. *Adv Sci.* 2026. doi:10.1002/advs.202518656
-- Yang H, et al. RDguru: Rare disease diagnosis using GPT and RAG. *IEEE J Biomed Health Inform.* 2024.
-- Robinson PN, et al. Phenopackets: A GA4GH standard for sharing disease and phenotype data. *Nat Biotechnol.* 2022.
+- Reese JT, Chimirri L, Bridges Y, et al. Systematic benchmarking demonstrates large language models have not reached the diagnostic accuracy of traditional rare-disease decision support tools. *Eur J Hum Genet.* 2026;34:498–504. doi:10.1038/s41431-026-02054-5. Code: [monarch-initiative/pheval.llm](https://github.com/monarch-initiative/pheval.llm)
+
+- Bridges Y, Souza V, Cortes KG, et al. Towards a standard benchmark for phenotype-driven variant and gene prioritisation algorithms: PhEval. *BMC Bioinformatics.* 2025;26(1):87. doi:10.1186/s12859-025-06105-4
+
+- Jacobsen JOB, Baudis M, Baynam GS, et al. The GA4GH Phenopacket schema defines a computable representation of clinical data. *Nat Biotechnol.* 2022;40:817–820. doi:10.1038/s41587-022-01357-4
+
+- Ladewig MS, Jacobsen JOB, Wagner AH, et al. GA4GH Phenopackets: A Practical Introduction. *Adv Genet (Hoboken).* 2022;4(1):2200016. doi:10.1002/ggn2.202200016
+
+- Tu T, Saab K, Liu W, et al. Genetic diagnosis and discovery enabled by large language models. *Adv Sci.* 2026;13(22):e2518656. doi:10.1002/advs.202518656
+- Yang J, Shu L, Duan H, Li H. RDguru: A conversational intelligent agent for rare diseases. *IEEE J Biomed Health Inform.* 2025;29(9):6366–6378. doi:10.1109/JBHI.2024.3464555
+
+- Kafkas Ş, Abdelhakim M, Althagafi A, et al. The application of large language models to the phenotype-based prioritization of causative genes in rare disease patients. *Sci Rep.* 2025;15:15093. doi:10.1038/s41598-025-99539-y
