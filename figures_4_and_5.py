@@ -18,15 +18,15 @@ for bar, val in zip(bars, values4):
     ax1.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.5,
              f'{val}%', ha='center', va='bottom', fontsize=11, fontweight='bold')
 
-# Figure 5 — Disease-level vs MALCO
-labels5 = ['MALCO Exomiser', 'Claude RAG\n(this work)', 'MALCO best LLM\n(o1-preview)',
+# Figure 5 — Disease-level vs Reese et al.(2026)
+labels5 = ['Reese et al.\nExomiser', 'Claude RAG\n(this work)', 'Reese et al.\nbest LLM (o1-preview)',
            'Claude disease\n(Sonnet)', 'Claude disease\n(Haiku)']
 values5 = [35.5, 32.5, 23.6, 9.0, 2.5]
 colors5 = ['#88878099', '#2a78d6', '#88878099', '#2a78d680', '#2a78d680']
 bars2 = ax2.barh(labels5, values5, color=colors5, edgecolor='white')
 ax2.set_xlim(0, 42)
 ax2.set_xlabel('Top-1 accuracy (%)')
-ax2.set_title('Figure 5 — Disease-level top-1 vs MALCO')
+ax2.set_title('Figure 5 — Disease-level top-1 vs Reese et al. (2026)')
 ax2.spines['top'].set_visible(False)
 ax2.spines['right'].set_visible(False)
 for bar, val in zip(bars2, values5):

@@ -1,34 +1,31 @@
-﻿# ChromaDB â€” rebuilt locally by run_rag.py
+﻿# ChromaDB
 chroma_db/
 chroma_db_v2/
 
-# DuckDB â€” rebuilt by PhEval benchmarking
-pheval_results/*.duckdb
-pheval_results/configs/*.duckdb
-
-# PhEval parquet output â€” large, reproducible
+# PhEval parquet output
 pheval_results/*/pheval_gene_results/
 pheval_results/*/pheval_disease_results/
+pheval_results/*.duckdb
 
-# LLM results â€” large JSON files, not tracked
+# LLM results
 llm_results*/
+
+# Large data files
+hpo_resources/
+exomiser_results/
+phenopackets/
+synthetic_patients_with_genes/
+synthetic_patients_lookup.csv
+
+# Generated figure binaries (keep SVGs, ignore PNGs)
+*.png
+figures_4_and_5.svg
 
 # Python
 __pycache__/
 *.pyc
-*.pyo
 .venv/
-
-# IDE
 .idea/
 
-# Large data files â€” stored on Apocrita HPC
-hpo_resources/
-exomiser_results/
-phenopackets/
-
-# HTML progress reports
-*.html
-
-# Logs
-*.log
+# Stats outputs (reproducible from scripts)
+stats/*.csv
