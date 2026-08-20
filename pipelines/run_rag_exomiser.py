@@ -137,8 +137,8 @@ def load_exomiser_genes(patient_id: str) -> list[dict]:
     try:
         df = pl.read_parquet(parquet_file)
         top = (
-            df.sort("genePhenotypeScore", descending=True)
-            .unique(subset=["geneSymbol"], keep="first")
+            df.unique(subset=["geneSymbol"], keep="first")
+            .sort("genePhenotypeScore", descending=True)
             .head(TOP_N_EXOMISER)
             .select(["geneSymbol", "genePhenotypeScore"])
         )

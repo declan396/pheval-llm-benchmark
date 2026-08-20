@@ -1,0 +1,4 @@
+approach_A,approach_B,chi2,p_value,significance,A_only,B_only,both,neither,n_shared
+disease_rag,disease_sonnet,40.5,0.0,***,48,2,16,134,200
+disease_rag,disease_haiku,57.0169,0.0,***,59,0,5,136,200
+disease_sonnet,disease_haiku,11.0769,0.000874,***,13,0,5,182,200

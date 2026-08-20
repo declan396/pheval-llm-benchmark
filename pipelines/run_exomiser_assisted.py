@@ -29,8 +29,8 @@ def extract_exomiser_genes(patient_id: str) -> list[dict]:
     if not parquet_file.exists():
         return []
     df = pl.read_parquet(parquet_file)
-    top = (df.sort("genePhenotypeScore", descending=True)
-             .unique(subset=["geneSymbol"], keep="first")
+    top = (df.unique(subset=["geneSymbol"], keep="first")
+             .sort("genePhenotypeScore", descending=True)
              .head(TOP_N_EXOMISER)
              .select(["geneSymbol", "genePhenotypeScore"]))
     return [
